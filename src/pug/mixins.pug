@@ -1,0 +1,31 @@
+//- Примеси
+mixin nav(customClass)
+  nav.nav(class=customClass)
+    ul.nav__list
+      li.nav__item
+        a.nav__link(href='./providers.html') Поставщики
+      li.nav__item
+        a.nav__link(href='./equipment.html') Оборудование
+      li.nav__item
+        a.nav__link(href='./articles.html') Статьи
+
+mixin location(locationCustomClass)
+  .location(class=locationCustomClass)
+    span.location__title Ваш город:
+    a.location__value Санкт-Петербург
+
+mixin slide(slideCustomClass, slidedBg)
+  .slide(class=slideCustomClass style=slidedBg)
+    .slide__inner
+      h3 Some title
+      p Some lorem ipsum text
+
+mixin breadcrumbs(colorClass)
+  .breadcrumbs(class=colorClass)
+    .container
+      ul.breadcrumbs__list
+        li.breadcrumbs__item
+          a(href='../home.html' title='Главная') Главная
+
+        li.breadcrumbs__item.breadcrumbs__item_active
+          span О нас

@@ -1,0 +1,95 @@
+.header {
+
+  &__container {
+    display: flex;
+    position: relative;
+    border: 1px solid $grey-light;
+  }
+
+  &__logo {
+    display: block;
+    width: 74px;
+  }
+
+  &__phone {
+    font-size: 16px;
+    font-weight: 700;
+    color: $text-color;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 25px;
+  }
+
+  &__burger {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    padding: 4px 0;
+  }
+
+  &__burger span,
+  &__burger span:before,
+  &__burger span:after {
+    content: '';
+    display: block;
+    font-size: 0;
+    width: 25px;
+    height: 2px;
+    background-color: $blue;
+    transform-origin: left;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &__burger span:before {
+    position: absolute;
+    top: 5px;
+  }
+
+  &__burger span:after {
+    position: absolute;
+    bottom: 4px;
+  }
+
+  &__burger--active span {
+    width: 0;
+  }
+
+  &__burger--active span:before {
+    width: 20px;
+    transform: rotate(45deg);
+  }
+
+  &__burger--active span:after {
+    width: 20px;
+    transform: rotate(-45deg);
+  }
+
+  &__wrap {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 47px);
+    background-color: $white;
+    top: 46px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transition: all .4s;
+
+    &--active {
+      display: flex;
+    }
+  }
+
+  &__nav,
+  &__location {
+    margin: auto;
+  }
+
+  &__item,
+  &__location {
+    text-align: center;
+  }
+}

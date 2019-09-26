@@ -1,0 +1,14 @@
+//@import '../../node_modules/swiper/dist/css/swiper.min';
+
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+
+@import 'main';
+
+@import '../blocks/header/header';
+@import '../blocks/footer/footer';
+@import '../blocks/nav/nav';
+@import '../blocks/location/location';
+
+@import '../pages/home/home';

@@ -1,0 +1,44 @@
+.breadcrumbs {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 131px;
+  left: 0;
+  @include font(300, $font-size-xs, 1.5rem);
+  color: $white;
+  user-select: none;
+
+  @include tablet {
+    display: flex;
+  }
+
+  @include mobile {
+    top: 72px;
+  }
+
+  &_color {
+    color: $blue-dark;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    position: relative;
+
+    &:not(:last-child) {
+
+      &:after {
+        display: inline-flex;
+        content: '→';
+        margin: 0 10px;
+      }
+    }
+
+    &_active {
+      opacity: .5;
+      pointer-events: none;
+    }
+  }
+}

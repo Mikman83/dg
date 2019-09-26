@@ -1,0 +1,13 @@
+.nav {
+
+  &__item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__link {
+    font-size: 14px;
+    font-weight: 700;
+    color: $black;
+  }
+}

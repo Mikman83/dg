@@ -1,0 +1,42 @@
+//300	Светлый Light
+//400	Нормальный Normal/Regular
+//500	Средний Medium
+//700	Жирный Bold
+
+
+//Open Sans
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular/OpenSans-Regular.woff") format("woff"),
+  url("../fonts/OpenSans-Regular/OpenSans-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"),
+  url("../fonts/OpenSans-Bold/OpenSans-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+//IBM Plex
+
+@font-face {
+  font-family: "IBM Plex";
+  src: url("../fonts/IBMPlexSans-Medium/IBMPlexSans-Medium.woff") format("woff"),
+  url("../fonts/IBMPlexSans-Medium/IBMPlexSans-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "IBM Plex";
+  src: url("../fonts/IBMPlexSans-Light/IBMPlexSans-Light.woff") format("woff"),
+  url("../fonts/IBMPlexSans-Light/IBMPlexSans-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+

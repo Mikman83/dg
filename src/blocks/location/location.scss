@@ -1,0 +1,15 @@
+.location {
+
+  &__title {
+    font-size: 14px;
+    color: $grey;
+    margin-right: 6px;
+  }
+
+  &__value {
+    font-size: 14px;
+    color: $blue;
+    border-bottom: 1px dashed $blue;
+  }
+
+}
