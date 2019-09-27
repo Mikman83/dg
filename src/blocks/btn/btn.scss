@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid $white;
+  padding: 0 25px;
+
+  &__text {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $white;
+  }
+}
