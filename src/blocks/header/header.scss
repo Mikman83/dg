@@ -147,7 +147,10 @@
   &__nav,
   &__location {
     margin: auto;
-    margin-right: 0;
+
+    @media (min-wdth: $screen-sm) {
+      margin-right: 0;
+    }
   }
 
   &__item,

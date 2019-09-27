@@ -1,0 +1,25 @@
+.copy-block {
+
+  &__item {
+    font-size: 14px;
+    color: $grey;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__developer {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  &__descr {
+    font-size: 14px;
+    color: $grey;
+    margin-right: 10px;
+  }
+
+  &__link {
+    display: inline-block;
+    width: 88px;
+  }
+}
