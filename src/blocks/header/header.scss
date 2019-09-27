@@ -1,9 +1,9 @@
 .header {
+  border-bottom: 1px solid $grey-light;
 
   &__container {
     display: flex;
     position: relative;
-    border: 1px solid $grey-light;
   }
 
   &__logo {
@@ -11,20 +11,15 @@
     width: 74px;
   }
 
-  &__phone {
-    font-size: 16px;
-    font-weight: 700;
-    color: $text-color;
-    align-self: center;
-    margin-left: auto;
-    margin-right: 25px;
-  }
-
   &__burger {
     position: relative;
     width: 25px;
     height: 25px;
     padding: 4px 0;
+
+    @media (min-width: $screen-lg) {
+      display: none;
+    }
   }
 
   &__burger span,
@@ -73,23 +68,108 @@
     background-color: $white;
     top: 46px;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 2;
     transition: all .4s;
 
+    @media (min-width: $screen-sm) {
+      position: static;
+      display: flex;
+      width: auto;
+      height: auto;
+      top: auto;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+
+    @media (min-width: $screen-lg) {
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: space-between;
+      margin-left: 40px;
+    }
+
     &--active {
       display: flex;
+    }
+
+    &--active .header__inner {
+
+      @media (min-width: $screen-sm) {
+        display: flex;
+      }
+    }
+  }
+
+  &__inner {
+    margin: auto;
+
+    @media (min-width: $screen-sm) {
+      display: none;
+      position: absolute;
+      flex-direction: column;
+      width: 100%;
+      height: calc(100vh - 47px);
+      background-color: rgba(255, 255, 255, 0.9);
+      top: 46px;
+      right: 0;
+      z-index: 2;
+    }
+
+    @media (min-width: $screen-lg) {
+      position: static;
+      display: inline-block;
+      width: auto;
+      height: auto;
+      margin-left: 0;
+    }
+  }
+
+  &__nav {
+    display: flex;
+
+    @media (min-width: $screen-sm) {
+      position: absolute;
+      width: 244px;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      padding: 0 25px;
+      background-color: $white;
+    }
+
+    @media (min-width: $screen-lg) {
+      position: static;
+      width: auto;
+      padding: 0;
     }
   }
 
   &__nav,
   &__location {
     margin: auto;
+    margin-right: 0;
   }
 
   &__item,
   &__location {
     text-align: center;
+  }
+
+  &__phone {
+    font-size: 16px;
+    font-weight: 700;
+    color: $text-color;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 25px;
+
+    @media (min-width: $screen-sm) {
+      margin-left: 0;
+    }
+
+    @media (min-width: $screen-lg) {
+      pointer-events: none;
+      margin-right: 0;
+    }
   }
 }

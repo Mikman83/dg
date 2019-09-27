@@ -5,6 +5,10 @@ html {
     color: $text-color;
 }
 
+body {
+  background-color: $white;
+}
+
 *,
 *:before,
 *:after {
@@ -92,6 +96,28 @@ img {
 
 .container {
     padding: 10px;
+
+  @media (min-width: $screen-sm) {
+    padding: 25px;
+  }
+
+  @media (min-width: $screen-lg) {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+
+  @media (min-width: $screen-xl) {
+    width: 1240px;
+  }
+
+  @media (min-width: $screen-xxl) {
+    width: 1400px;
+  }
+
+  @media (min-width: $screen-xxxl) {
+    width: 1700px;
+  }
 }
 
 .noScroll {

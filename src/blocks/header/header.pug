@@ -1,10 +1,11 @@
 header.header
   .header__container.container
     a.header__home-link(href='./home.html')
-      img.header__logo( src='./img/logo.svg' alt='Главная')
+      img.header__logo( src='./img/logo.svg' alt='Главная' title='Главная')
 
     .header__wrap
-      +nav('header__nav')
+      .header__inner
+        +nav('header__nav')
       +location('header__location')
 
     a.header__phone(href='tel:+78006726767') 8 800 672-67-67
