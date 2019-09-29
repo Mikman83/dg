@@ -148,7 +148,7 @@
   &__location {
     margin: auto;
 
-    @media (min-wdth: $screen-sm) {
+    @media (min-width: $screen-sm) {
       margin-right: 0;
     }
   }

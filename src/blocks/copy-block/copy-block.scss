@@ -1,15 +1,33 @@
 .copy-block {
 
+  &__inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
   &__item {
     font-size: 14px;
     color: $grey;
     margin-bottom: 30px;
     text-align: center;
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 0;
+    }
   }
 
   &__developer {
     width: fit-content;
     margin: 0 auto;
+
+    @media (min-width: $screen-sm) {
+      margin: 0;
+    }
   }
 
   &__descr {
@@ -21,5 +39,9 @@
   &__link {
     display: inline-block;
     width: 88px;
+
+    @media (min-width: $screen-lg) {
+      cursor: pointer;
+    }
   }
 }

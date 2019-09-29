@@ -1,10 +1,60 @@
 .lead-block {
 
+  &__inner {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $screen-sm) {
+      flex-direction: row;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 540px;
+      margin-left: auto;
+    }
+
+    @media (min-width: $screen-xl) {
+      width: 620px;
+      margin-left: auto;
+    }
+
+    @media (min-width: $screen-xxl) {
+      width: 700px;
+      margin-left: auto;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      width: 850px;
+      margin-left: auto;
+    }
+  }
+
   &__text {
     font-family: 'IBM Plex';
     font-size: 16px;
     font-weight: 500;
     color: $white;
     margin-bottom: 15px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 20px;
+      width: 320px;
+      margin-bottom: 0;
+      margin-right: 65px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 16px;
+      margin-right: 0;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 20px;
+      margin-right: 35px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      margin-right: 65px;
+    }
   }
 }

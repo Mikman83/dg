@@ -1,11 +1,53 @@
 .contacts-block {
-  justify-content: space-between;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+    @media (min-width: $screen-sm) {
+      justify-content: flex-start;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 540px;
+      margin-right: auto;
+      padding-left: 80px;
+    }
+
+    @media (min-width: $screen-xl) {
+      width: 620px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      width: 700px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      width: 850px;
+    }
+  }
 
   &__text {
     font-family: 'IBM Plex';
     font-size: 16px;
     font-weight: 500;
     width: 105px;
+
+    @media (min-width: $screen-sm) {
+      width: 227px;
+      font-size: 20px;
+      margin-right: 165px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 16px;
+      margin-right: 50px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 20px;
+      margin-right: 100px;
+    }
   }
 
   &__item {
@@ -18,11 +60,30 @@
     margin-bottom: 3px;
   }
 
+  &__tel-link {
+
+    @media (min-width: $screen-lg) {
+      pointer-events: none;
+    }
+  }
+
   &__mail-link,
   &__tel-link {
     font-family: 'IBM Plex';
     font-size: 16px;
     font-weight: 300;
     color: $black;
+
+    @media (min-width: $screen-sm) {
+      font-size: 20px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 16px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 20px;
+    }
   }
 }

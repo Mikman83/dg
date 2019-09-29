@@ -1,21 +1,56 @@
 .footer {
 
+  &__wrap {
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+    }
+  }
+
   &__lead-block {
-    display: flex;
-    flex-direction: column;
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: linear-gradient(135deg, #18c3f4 0%, #3c7cbf 100%);
+
+    @media (min-width: $screen-sm) {
+      padding-top: 45px;
+      padding-bottom: 45px;
+      flex-direction: row;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 50%;
+    }
   }
 
   &__contacts-block {
-    display: flex;
     padding-top: 35px;
     padding-bottom: 25px;
     background-color: $blue-light;
+
+    @media (min-width: $screen-sm) {
+      padding-top: 45px;
+      padding-bottom: 45px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 50%;
+    }
   }
 
-  &__copy-block {
-    padding: 30px 50px 25px 50px;
+  &__lead-block,
+  &__contacts-block {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media (min-width: $screen-sm) {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
+    @media (min-width: $screen-lg) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
