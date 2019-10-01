@@ -1,0 +1,232 @@
+.statistics {
+  padding-bottom: 30px;
+
+  @media (min-width: $screen-lg) {
+    display: flex;
+    padding: 0;
+  }
+
+  &__header {
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm) {
+      padding: 0 25px;
+      border-bottom: 1px solid $grey-light;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 53%;
+      margin: 0;
+      padding-top: 40px;
+      padding-right: 60px;
+      padding-bottom: 50px;
+      padding-left: 145px;
+      border-bottom: none;
+      border-right: 1px solid $grey-light;
+    }
+
+    @media (min-width: $screen-xxl) {
+      padding-right: 104px;
+      padding-left: 199px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 5px;
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title h1 {
+    font-family: 'IBM Plex';
+    font-size: 18px;
+    font-weight: 300;
+
+    @media (min-width: $screen-sm) {
+      font-size: 40px;
+      line-height: 50px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 32px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 36px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      font-size: 40px;
+    }
+  }
+
+  &__descr {
+    max-width: 290px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: $blue;
+
+    @media (min-width: $screen-sm) {
+      max-width: 360px;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 22px;
+    }
+
+    @media (min-width: $screen-lg) {
+      max-width: 100%;
+      font-size: 12px;
+      margin: 0;
+    }
+
+    @media (min-width: 1366px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__wrap {
+
+    @media (min-width: $screen-sm) {
+      padding: 0 25px;
+    }
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      flex-direction: column;
+      width: 47%;
+      padding: 0;
+    }
+  }
+
+  &__gaz-block,
+  &__diz-block {
+    display: none;
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      height: 50%;
+      padding-left: 40px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      padding-left: 65px;
+    }
+  }
+
+  &__gaz-block:hover .statistics__gaz-property,
+  &__diz-block:hover .statistics__diz-property,
+  &__gaz-block:hover .statistics__gaz-value,
+  &__diz-block:hover .statistics__diz-value, {
+    color: $blue-light;
+    cursor: pointer;
+  }
+
+  &__gaz-block {
+
+    @media (min-width: $screen-lg) {
+      border-bottom: 1px solid $grey-light;
+    }
+
+    &--active {
+      display: flex;
+    }
+
+    &--active .statistics__gaz-value {
+
+      @media (min-width: $screen-lg) {
+        font-size: 70px;
+      }
+    }
+  }
+
+  &__gaz-block-inner,
+  &__diz-block-inner {
+    display: flex;
+    width: 55%;
+    //margin-right: 15px;
+
+    @media  (min-width: $screen-sm) {
+      //margin-right: 60px;
+    }
+
+    @media  (min-width: $screen-lg) {
+      margin-right: 20px;
+    }
+  }
+
+  &__gaz-value,
+  &__diz-value {
+    display: flex;
+    font-family: 'IBM Plex';
+    font-size: 35px;
+    font-weight: 500;
+    margin-right: 12px;
+    align-items: center;
+    transition: all .4s;
+
+    @media  (min-width: $screen-sm) {
+      font-size: 70px;
+      margin-right: 21px;
+    }
+
+    @media  (min-width: $screen-lg) {
+      font-size: 50px;
+    }
+  }
+
+  &__gaz-property,
+  &__diz-property {
+    display: flex;
+    font-size: 10px;
+    color: $grey;
+    align-items: center;
+    transition: all .4s;
+
+    @media  (min-width: $screen-sm) {
+      font-size: 16px;
+    }
+  }
+
+  &__gaz-img,
+  &__diz-img {
+    width: 45%;
+
+    @media  (min-width: $screen-sm) {
+      max-width: 240px;
+    }
+
+    @media (min-width: $screen-lg) {
+      max-width: 100%;
+      display: flex;
+      align-items: flex-end;
+      padding-right: 20px;
+      padding-top: 20px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      padding-right: 30px;
+      padding-top: 20px;
+    }
+  }
+
+  &__diz-block {
+
+    &--active {
+      display: flex;
+    }
+
+    &--active .statistics__diz-value {
+
+      @media (min-width: $screen-lg) {
+        font-size: 70px;
+      }
+    }
+  }
+}

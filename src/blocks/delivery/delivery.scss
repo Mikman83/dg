@@ -1,0 +1,76 @@
+.delivery {
+
+  &__wrap {
+    padding: 0 10px;
+    padding-bottom: 50px;
+
+    @media (min-width: $screen-sm) {
+      padding: 0 25px;
+    }
+
+    @media (min-width: $screen-lg) {
+      padding: 0;
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+
+  &__list {
+
+    @media (min-width: $screen-lg) {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+
+  &__item {
+    border-bottom: 1px solid $grey-light;
+    margin-bottom: 10px;
+  }
+
+  &__show-more {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__show-more-btn {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: $blue;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid $blue-lighter;
+    padding: 0 20px;
+    margin-right: 40px;
+    background-color: $white;
+  }
+
+  &__promo {
+    background-image: url('./../img/promo-bgi.jpg');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: auto 100%;
+    margin-bottom: 10px;
+  }
+
+  &__promo-wrap {
+    padding: 20px;
+    padding-top: 35px;
+  }
+
+  &__promo-title {
+    font-family: 'IBM Plex';
+    font-size: 30px;
+    font-weight: 500;
+    color: $white;
+    margin-bottom: 10px;
+  }
+
+  &__promo-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+  }
+}

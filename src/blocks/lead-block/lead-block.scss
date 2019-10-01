@@ -43,6 +43,10 @@
       margin-right: 65px;
     }
 
+    @media (min-width: $screen-md) {
+      margin-right: 215px;
+    }
+
     @media (min-width: $screen-lg) {
       font-size: 16px;
       margin-right: 0;

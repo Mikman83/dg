@@ -12,7 +12,54 @@ mixin nav(customClass)
 mixin location(locationCustomClass)
   .location(class=locationCustomClass)
     span.location__title Ваш город:
-    a.location__value Санкт-Петербург
+    a(href='#').location__value Санкт-Петербург
+
+mixin sort(sortCustomClass)
+  .sort(class=sortCustomClass)
+    span.sort__title Сортировка:
+    a(href='#').sort__value по рейтингу
+
+mixin card(cardCustomClass, ratingStatusClass, statusClass)
+  .card(class=cardCustomClass)
+    .card__wrap
+      .card__header
+        .card__title
+          span Газовая перспектива
+        .card__header-wrap
+          .card__rating
+            .card__rating-title
+              span Рейтинг
+            .card__rating-value(class=ratingStatusClass)
+              span 7.5
+          .card__feedback
+            .card__feedback-count
+              span 5
+            .card__feedback-property
+              span отзывов
+      .card__adress
+        span Санкт-Петербург, Свеаборгская улица д.12
+      .card__delivery
+        span Доставка бесплатно в пределах 90 км от КАД, далее от 200 ₽.
+      .card__price
+        .card__price-status
+          .card__price-status-title
+            span Цена проверена
+          .card__price-status-value(class=statusClass)
+            span сегодня
+        .card__price-item
+          .card__price-wrap
+            .card__price-value
+              span 29,75
+            .card__price-currency
+              span ₽/л
+          .card__price-conditions
+            span Минимальный объем доставки 200 л
+
+      .card__btn
+        button.card__order-btn
+          span заказать
+      .card__details
+        a(href='#').card__details-link Подробнее
 
 mixin slide(slideCustomClass, slidedBg)
   .slide(class=slideCustomClass style=slidedBg)

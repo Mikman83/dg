@@ -1,0 +1,169 @@
+.card {
+
+  &__wrap {
+    padding-bottom: 15px;
+  }
+
+  &__header {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__header-wrap {
+    display: flex;
+  }
+
+  &__rating {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  &__rating-title {
+    font-size: 12px;
+    color: $grey-dark;
+    margin-right: 3px;
+  }
+
+  &__rating-value {
+    font-size: 12px;
+    font-weight: 700;
+
+    &--primary {
+      color: $primary;
+    }
+
+    &--danger {
+      color: $danger;
+    }
+
+    &--warning {
+      color: $warning;
+    }
+
+    &--success {
+      color: $success;
+    }
+  }
+
+  &__feedback {
+    display: flex;
+  }
+
+  &__feedback-count {
+    font-size: 12px;
+    color: $grey-dark;
+    margin-right: 3px;
+  }
+
+  &__feedback-property {
+    font-size: 12px;
+    color: $grey-dark;
+  }
+
+  &__adress,
+  &__delivery {
+    font-size: 12px;
+  }
+
+  &__delivery {
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__price-status {
+    display: flex;
+    margin-bottom: 13px;
+  }
+
+  &__price-status-title {
+    font-size: 12px;
+    color: $grey-dark;
+    margin-right: 3px;
+  }
+
+  &__price-status-value {
+    font-size: 12px;
+
+    &--primary {
+      color: $primary;
+    }
+
+    &--danger {
+      color: $danger;
+    }
+
+    &--warning {
+      color: $warning;
+    }
+
+    &--success {
+      color: $success;
+    }
+  }
+
+  &__price-item {
+    order: -1;
+    margin-bottom: 3px;
+  }
+
+  &__price-wrap {
+    display: flex;
+    order: -1;
+  }
+
+  &__price-value {
+    font-family: 'IBM Plex';
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 3px;
+  }
+
+  &__price-currency {
+    font-family: 'IBM Plex';
+    font-size: 12px;
+    font-weight: 500;
+    align-self: flex-end;
+  }
+
+  &__price-conditions {
+    font-size: 12px;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__order-btn {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: $blue;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 20px;
+    margin-right: 40px;
+    background-color: $blue-lighter;
+  }
+
+  &__details {
+    position: relative;
+  }
+
+  &__details-link {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    color: $blue;
+    bottom: 18px;
+  }
+}
