@@ -36,28 +36,29 @@ mixin card(cardCustomClass, ratingStatusClass, statusClass)
               span 5
             .card__feedback-property
               span отзывов
-      .card__adress
-        span Санкт-Петербург, Свеаборгская улица д.12
-      .card__delivery
-        span Доставка бесплатно в пределах 90 км от КАД, далее от 200 ₽.
-      .card__price
-        .card__price-status
-          .card__price-status-title
-            span Цена проверена
-          .card__price-status-value(class=statusClass)
-            span сегодня
-        .card__price-item
-          .card__price-wrap
-            .card__price-value
-              span 29,75
-            .card__price-currency
-              span ₽/л
-          .card__price-conditions
-            span Минимальный объем доставки 200 л
+      .card__inner
+        .card__adress
+          span Санкт-Петербург, Свеаборгская улица д.12
+        .card__delivery
+          span Доставка бесплатно в пределах 90 км от КАД, далее от 200 ₽.
+        .card__price
+          .card__price-status
+            .card__price-status-title
+              span Цена проверена
+            .card__price-status-value(class=statusClass)
+              span сегодня
+          .card__price-item
+            .card__price-wrap
+              .card__price-value
+                span 29,75
+              .card__price-currency
+                span ₽/л
+            .card__price-conditions
+              span Минимальный объем доставки 200 л
 
-      .card__btn
-        button.card__order-btn
-          span заказать
+        .card__btn
+          button.card__order-btn
+            span заказать
       .card__details
         a(href='#').card__details-link Подробнее
 
