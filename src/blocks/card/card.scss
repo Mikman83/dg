@@ -52,22 +52,6 @@
     @media (min-width: $screen-sm) {
       font-size: 14px;
     }
-
-    &--primary {
-      color: $primary;
-    }
-
-    &--danger {
-      color: $danger;
-    }
-
-    &--warning {
-      color: $warning;
-    }
-
-    &--success {
-      color: $success;
-    }
   }
 
   &__feedback {
@@ -211,22 +195,6 @@
 
     @media (min-width: $screen-sm) {
       font-size: 14px;
-    }
-
-    &--primary {
-      color: $primary;
-    }
-
-    &--danger {
-      color: $danger;
-    }
-
-    &--warning {
-      color: $warning;
-    }
-
-    &--success {
-      color: $success;
     }
   }
 

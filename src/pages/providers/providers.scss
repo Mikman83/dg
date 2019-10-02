@@ -1,0 +1,66 @@
+.providers {
+
+  &__header {
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+    }
+  }
+
+  &__title {
+
+    @media (min-width: $screen-sm) {
+      margin-right: 75px;
+    }
+  }
+
+  &__title h1 {
+    font-family: 'IBM Plex';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 30px;
+    }
+  }
+
+  &__search {
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 40%;
+      margin-left: auto;
+      flex-grow: 0;
+    }
+  }
+
+  &__list {
+    padding-top: 15px;
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 -5px;
+    }
+  }
+
+  &__item {
+    margin: 5px 0;
+
+    @media (min-width: $screen-sm) {
+      width: 50%;
+      padding: 5px;
+      margin: 0;
+    }
+  }
+
+  &__btn {
+    padding: 50px 0;
+  }
+}

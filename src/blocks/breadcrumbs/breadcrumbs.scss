@@ -1,44 +1,30 @@
 .breadcrumbs {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  top: 131px;
-  left: 0;
-  @include font(300, $font-size-xs, 1.5rem);
-  color: $white;
-  user-select: none;
-
-  @include tablet {
-    display: flex;
-  }
-
-  @include mobile {
-    top: 72px;
-  }
-
-  &_color {
-    color: $blue-dark;
-  }
 
   &__list {
     display: flex;
   }
 
   &__item {
-    position: relative;
+    font-size: 10px;
 
-    &:not(:last-child) {
-
-      &:after {
-        display: inline-flex;
-        content: '→';
-        margin: 0 10px;
-      }
+    @media (min-width: $screen-sm) {
+      font-size: 12px;
+      line-height: 20px;
     }
+  }
 
-    &_active {
-      opacity: .5;
-      pointer-events: none;
+  &__item a {
+    font-size: 10px;
+    color: $grey;
+
+    @media (min-width: $screen-sm) {
+      font-size: 12px;
+      line-height: 20px;
     }
+  }
+
+  &__item a:after {
+    content: '/';
+    margin: 0 3px;
   }
 }

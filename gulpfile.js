@@ -21,7 +21,8 @@ const concat = require('gulp-concat');
 const pug = require('gulp-pug');
 const prettyHtml = require('gulp-pretty-html');
 const replace = require('gulp-replace');
-const cssmin = require('gulp-cssmin');
+// const cssmin = require('gulp-cssmin');
+const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
 
 function compilePug() {
@@ -60,9 +61,10 @@ function compileStyles() {
     .pipe(postcss([
       autoprefixer({browsers: ['last 3 version']}),
     ]))
-    .pipe(sourcemaps.write('/'))
-    .pipe(cssmin())
+   // .pipe(cssmin())
+    .pipe(cssnano())
     .pipe(rename({suffix: '.min'}))
+    .pipe(sourcemaps.write('/'))
     .pipe(dest(dir.build + 'css/'))
     .pipe(browserSync.stream());
 }
@@ -113,7 +115,7 @@ exports.clean = clean;
 function serve() {
   browserSync.init({
     server: dir.build,
-    startPath: 'home.html',
+    startPath: 'index.html',
     open: false,
     port: 8080,
   });

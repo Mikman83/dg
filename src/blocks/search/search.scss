@@ -1,0 +1,72 @@
+.search {
+
+  &__field {
+    position: relative;
+    width: 100%;
+
+    input[type="search"]::placeholder {
+      font-size: 14px;
+      font-weight: 400;
+      color: $grey-dark;
+
+      @media (min-width: $screen-sm) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__field-item {
+    width: 100%;
+    padding: 10px 35px 5px 5px;
+    border-bottom: 1px solid $blue;
+    outline: none;
+
+    @media (min-width: $screen-sm) {
+      padding: 15px 35px 15px 10px;
+    }
+
+    @media (min-width: $screen-lg) {
+      padding: 17px 35px;
+      padding-right: 115px;
+      border-radius: 25px;
+      border: 1px solid $blue-light;
+    }
+  }
+
+  &__field-btn {
+    position: absolute;
+    font-size: 0;
+    width: 18px;
+    height: 18px;
+    border: none;
+    right: 5px;
+    top: 7px;
+    background-image: url('./../img/search.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (min-width: $screen-sm) {
+      top: 15px;
+      right: 10px;
+    }
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      width: auto;
+      height: 48px;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $blue;
+      background-image: none;
+      background-color: $blue-lighter;
+      border-radius: 25px;
+      padding: 0 28px;
+      top: 1px;
+      right: 1px;
+      bottom: 1px;
+    }
+  }
+}

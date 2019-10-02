@@ -1,0 +1,300 @@
+.card-mini {
+
+  &__inner {
+    padding: 10px 15px 25px;
+    border: 1px solid $grey-light;
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      padding: 20px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      justify-content: space-between;
+    }
+
+    &:hover {
+
+      @media (min-width: $screen-lg) {
+        border: 1px solid $blue-light;
+      }
+    }
+  }
+
+  &__logo {
+    width: 85px;
+    margin-bottom: 5px;
+
+    @media (min-width: $screen-sm) {
+      width: 98px;
+      margin-bottom: 15px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 104px;
+      margin: 0;
+      margin-right: 20px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      width: 124px;
+      margin: 0;
+      margin-right: 30px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      margin-right: 40px;
+    }
+  }
+
+  &__header {
+
+    @media (min-width: $screen-lg) {
+      width: 180px;
+      margin-right: 20px;
+    }
+
+    @media (min-width: $screen-xl) {
+      width: 197px;
+    }
+
+    @media (min-width: $screen-xl) {
+      width: 197px;
+      margin-right: 30px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      width: 230px;
+      margin-right: 40px;
+    }
+  }
+
+  &__title {
+    font-family: 'IBM Plex';
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 300;
+
+    @media (min-width: $screen-sm) {
+      font-size: 20px;
+      line-height: 40px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 17px;
+      line-height: 30px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 19px;
+      line-height: 26px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 20px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 23px;
+    }
+  }
+
+  &__header-wrap {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  &__rating {
+    display: flex;
+    margin-right: 10px;
+  }
+
+  &__rating-title {
+    font-size: 12px;
+    color: $grey-dark;
+    margin-right: 3px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 12px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__rating-value {
+    font-size: 12px;
+    font-weight: 700;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 12px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__feedback {
+    display: flex;
+  }
+
+  &__feedback-count {
+    font-size: 12px;
+    color: $grey-dark;
+    margin-right: 3px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 12px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__feedback-property {
+    font-size: 12px;
+    color: $grey-dark;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 12px;
+    }
+
+    @media (min-width: $screen-xl) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__adress {
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      flex-direction: column;
+      width: 180px;
+    }
+
+    @media (min-width: $screen-xl) {
+      width: 230px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      width: 255px;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      width: 300px;
+    }
+  }
+
+  &__adress-item {
+    font-size: 14px;
+    color: $grey-dark;
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 30px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin: 0;
+    }
+
+    @media (min-width: $screen-xxxl) {
+      font-size: 16px;
+    }
+  }
+
+  &__advantages {
+    display: flex;
+
+    @media (min-width: $screen-lg) {
+      order: -1;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__advantages-gaz {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: $grey-dark;
+    margin-right: 5px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 16px;
+      margin-right: 20px;
+    }
+  }
+
+  &__gaz-icon {
+    display: block;
+    width: 14px;
+    height: 21px;
+    background-image: url('./../img/gaz-grey.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+
+    @media (min-width: $screen-sm) {
+      margin-right: 9px;
+    }
+  }
+
+  &__advantages-diz {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: $grey-dark;
+
+    @media (min-width: $screen-sm) {
+      font-size: 16px;
+    }
+  }
+
+  &__diz-icon {
+    display: block;
+    width: 11px;
+    height: 17px;
+    background-image: url('./../img/diz-grey.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 3px;
+
+    @media (min-width: $screen-sm) {
+      margin-right: 9px;
+    }
+  }
+}

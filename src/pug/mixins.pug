@@ -68,12 +68,41 @@ mixin slide(slideCustomClass, slidedBg)
       h3 Some title
       p Some lorem ipsum text
 
-mixin breadcrumbs(colorClass)
+mixin breadcrumbs(colorClass, firstPage, lastPage)
   .breadcrumbs(class=colorClass)
-    .container
-      ul.breadcrumbs__list
-        li.breadcrumbs__item
-          a(href='../home.html' title='Главная') Главная
+    ul.breadcrumbs__list
+      li.breadcrumbs__item
+        a(href='../index.html' title='Главная')= firstPage
+      li.breadcrumbs__item
+        span= lastPage
 
-        li.breadcrumbs__item.breadcrumbs__item_active
-          span О нас
+
+mixin card-mini(cardMiniCustomClass, ratingStatusClass)
+  .card-mini(class=cardMiniCustomClass)
+    .card-mini__inner
+      .card-mini__logo
+        img(src='./../img/logo.jpg')
+      .card-mini__header
+        .card-mini__title
+          span Газовая перспектива
+        .card-mini__header-wrap
+          .card-mini__rating
+            .card-mini__rating-title
+              span Рейтинг
+            .card-mini__rating-value(class=ratingStatusClass)
+              span 7.5
+          .card-mini__feedback
+            .card-mini__feedback-count
+              span 5
+            .card-mini__feedback-property
+              span отзывов
+      .card-mini__adress
+        .card-mini__adress-item
+          span Москва и МО, Санкт-Петербург и ЛО
+        .card-mini__advantages
+          .card-mini__advantages-gaz
+            span.card-mini__gaz-icon
+            span Газ
+          .card-mini__advantages-diz
+            span.card-mini__diz-icon
+            span Дизель
