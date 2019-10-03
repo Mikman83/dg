@@ -16,11 +16,23 @@ block content
             Сегодня автономное газовое отопление является одним из самых
             выгодных способов для обеспечения объектов теплом и горячим
             водоснабжением в местах, где нет центрального газоснабжения.
-      .equipment__catalog.catalog
-        .catalog__advantages.advantages
-          button.advantages__gaz-holder.advantages__gaz-holder--active
-            span.advantages__gaz-holder-text Газгольдер
-          button.advantages__gas-boiler
-            span.advantages__gas-boiler-text Газовые котлы
-          button.advantages__diz-boiler-btn
-            span.advantages__diz-boiler-text Дизельные котлы
+      .equipment__inner
+        form.logistics__advantages.advantages
+          input(type="radio" id="gas" name="advantage" value="gas" checked)
+          label(for="gas").advantages__btn
+            span Газгольдер
+          input(type="radio" id="diz" name="advantage" value="diz")
+          label(for="diz").advantages__btn
+            span Газовые котлы
+          input(type="radio" id="diztank" name="advantage" value="diztank")
+          label(for="diztank").advantages__btn
+            span Дизельные котлы
+      .equipment_list
+        +card-page
+        +card-page
+        +card-page
+        +card-page
+        +card-page
+      .equipment__btn.delivery__show-more
+        button.delivery__show-more-btn
+          span Показать еще

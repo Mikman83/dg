@@ -106,3 +106,45 @@ mixin card-mini(cardMiniCustomClass, ratingStatusClass)
           .card-mini__advantages-diz
             span.card-mini__diz-icon
             span Дизель
+
+mixin card-page(cardPageCustomClass)
+  .card-page(class=cardPageCustomClass)
+    .card-page__wrap
+      .card-page__header
+        .card-page__title
+          h2 LPG 800 «СПЕЦГАЗ»
+        .card-page__text.
+          Сегодня автономное газовое отопление является одним из самых выгодных
+          способов для обеспечения объектов теплом и горячим водоснабжением в
+          местах, где нет центрального газоснабжения.
+      .card-page__img
+        img(src='./../img/gas-holder.jpg' alt='Газгольдер' title='Газгольдер')
+      .card-page__details
+        .card-page__details-item
+          .card-page__detail-value 770×1280
+            span мм
+          .card-page__detail-property
+            span Размер
+        .card-page__details-item
+          .card-page__detail-value 800
+            span л
+          .card-page__detail-property
+            span Полный объем
+        .card-page__details-item
+          .card-page__detail-value 600
+            span л
+          .card-page__detail-property
+            span Рабочий объем
+        .card-page__details-item
+          .card-page__detail-value 165
+            span кг
+          .card-page__detail-property
+            span Вес
+        .card-page__details-item
+          .card-page__detail-value 25
+            span лет
+          .card-page__detail-property
+            span Срок службы
+      .card-page__inner
+        .card-page__price
+          span.card-page__price
