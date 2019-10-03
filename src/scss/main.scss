@@ -6,7 +6,12 @@ html {
 }
 
 body {
+  padding-top: 46px;
   background-color: $white;
+
+  @media (min-width: $screen-sm) {
+    padding-top: 76px;
+  }
 }
 
 *,

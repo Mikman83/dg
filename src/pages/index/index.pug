@@ -31,13 +31,11 @@ block content
             .statistics__diz-img
               img(src='./img/Diz_car.svg' alt='Доставка дизеля' title='Доставка дизеля')
   .logistics
-    .logistics__advantages.advantages
-      button.advantages__gaz-btn.advantages__gaz-btn--active
-        span.advantages__gaz-img
-        span.advantages__gaz-text Газ
-      button.advantages__diz-btn
-        span.advantages__diz-img
-        span.advantages__diz-text Дизель
+    form.logistics__advantages.advantages
+      input(type="radio" id="gas" name="advantage" value="gas" checked)
+      label(for="gas").advantages__btn Газ
+      input(type="radio" id="diz" name="advantage" value="diz")
+      label(for="diz").advantages__btn Дизель
     .logistics__delivery.delivery
       .delivery__wrap
         +sort('delivery__sort')

@@ -1,0 +1,26 @@
+extends ../pug/layout
+
+block meta
+  title Оборудование
+  meta(name='description', content='')
+
+block content
+  section.equipment
+    .equipment__wrap.container
+      +breadcrumbs('equipment__breadcrumbs', 'Главная', 'Оборудование')
+      .equipment__header
+        .equipment__title
+          h1 Оборудование
+        .equipment__text
+          p.
+            Сегодня автономное газовое отопление является одним из самых
+            выгодных способов для обеспечения объектов теплом и горячим
+            водоснабжением в местах, где нет центрального газоснабжения.
+      .equipment__catalog.catalog
+        .catalog__advantages.advantages
+          button.advantages__gaz-holder.advantages__gaz-holder--active
+            span.advantages__gaz-holder-text Газгольдер
+          button.advantages__gas-boiler
+            span.advantages__gas-boiler-text Газовые котлы
+          button.advantages__diz-boiler-btn
+            span.advantages__diz-boiler-text Дизельные котлы

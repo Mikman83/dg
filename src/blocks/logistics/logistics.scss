@@ -1,4 +1,21 @@
 .logistics {
   position: relative;
   padding-top: 30px;
+
+  &__advantages {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @media (min-width: $screen-sm) {
+      left: 110px;
+      transform: translateX(0);
+    }
+
+    @media (min-width: $screen-lg) {
+      left: 11%;
+      transform: translateX(0);
+    }
+  }
 }
