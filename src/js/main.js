@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  //ВСПЛЫВАЮЩАЯ ШАПКА
   let header = $('.header'),
     scrollPrev = 0;
 
@@ -38,4 +39,23 @@ $(document).ready(function() {
   //     $('.advantages__diz-btn')
   //       .toggleClass('advantages__diz-btn--active');
   //   });
+
+  //АККОРДЕОН
+  $('.delivery__show-more-btn')
+    .click(function(e) {
+      e.preventDefault;
+
+      $('.card-page__traders')
+        .not($(this).next())
+        .toggleClass('card-page__traders-active');
+        // .slideUp(400);
+
+      $(this)
+        .next()
+        .toggleClass('card-page__traders--active');
+        // .slideToggle(400);
+
+      $(this)
+        .toggleClass('delivery__show-more-btn--active');
+  });
 });

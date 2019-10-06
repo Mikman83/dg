@@ -49,21 +49,18 @@
     padding: 0 20px;
     //margin-right: 40px;
     background-color: $white;
-  }
 
-  &__show-more-btn-open {
-
-    &--enable {
+    &--active &-open {
       display: none;
+    }
+
+    &--active &-close {
+      display: block;
     }
   }
 
   &__show-more-btn-close {
     display: none;
-
-    &--enable {
-      display: block;
-    }
   }
 
   &__promo {
