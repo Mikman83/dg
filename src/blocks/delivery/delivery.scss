@@ -47,8 +47,23 @@
     border-radius: 25px;
     border: 1px solid $blue-lighter;
     padding: 0 20px;
-    margin-right: 40px;
+    //margin-right: 40px;
     background-color: $white;
+  }
+
+  &__show-more-btn-open {
+
+    &--enable {
+      display: none;
+    }
+  }
+
+  &__show-more-btn-close {
+    display: none;
+
+    &--enable {
+      display: block;
+    }
   }
 
   &__promo {

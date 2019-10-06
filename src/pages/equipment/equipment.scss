@@ -1,3 +1,38 @@
 .equipment {
   position: relative;
+
+  &__title {
+    margin-bottom: 13px;
+  }
+
+  &__title h1 {
+    font-family: 'IBM Plex';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+
+  &__text {
+    font-size: 10px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  &__inner {
+    margin-bottom: 20px;
+  }
+
+  &__advantages .advantages__btn {
+    font-size: 10px;
+    padding: 12px;
+
+    @media (min-width: $screen-sm) {
+      padding: 15px;
+      font-size: 12px;
+    }
+  }
+
+  &__btn {
+    margin: 20px 0;
+  }
 }

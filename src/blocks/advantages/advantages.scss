@@ -2,10 +2,14 @@
   display: flex;
   align-items: center;
   width: fit-content;
-  height: 46px;
+  height: 36px;
   border-radius: 25px;
   border: 1px solid $grey-light;
   background-color: $white;
+
+  @media (min-width: $screen-sm) {
+    height: 46px;
+  }
 
   &__btn {
     display: flex;
@@ -31,7 +35,7 @@
   & input:checked + &__btn {
     display: flex;
     padding: 2px 18px;
-    height: 50px;
+    height: 40px;
     background-image: linear-gradient(135deg, $blue-light 0%, $blue 100%);
     color: $white;
     border-radius: 25px;
@@ -40,6 +44,7 @@
     margin-right: -2px;
 
     @media (min-width: $screen-sm) {
+      height: 50px;
       padding: 2px 40px;
     }
   }

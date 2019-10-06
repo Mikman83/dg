@@ -1,0 +1,93 @@
+.card-page {
+
+  &__wrap {
+    border: 1px solid $grey-light;
+    margin-bottom: 5px;
+  }
+
+  &__header {
+    padding: 10px 10px 25px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__title h2 {
+    font-family: 'IBM Plex';
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  &__text {
+    font-size: 12px;
+    color: $grey-dark;
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  &__details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    margin-left: -7px;
+    margin-right: -7px;
+  }
+
+  &__details-item {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 9px;
+  }
+
+  &__detail-value {
+    font-family: 'IBM Plex';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  &__detail-value span {
+    font-size: 10px;
+    margin-left: 3px;
+  }
+
+  &__detail-property {
+    font-size: 10px;
+    color: $grey;
+  }
+
+  &__inner {
+    display: flex;
+    padding: 0 10px;
+    margin-bottom: 25px;
+  }
+
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  &__price-item {
+    font-family: 'IBM Plex';
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  &__price-value {
+    font-size: 16px;
+    color: $blue;
+    padding: 0 5px;
+  }
+
+
+
+  &__traders {
+    display: none;
+  }
+}
