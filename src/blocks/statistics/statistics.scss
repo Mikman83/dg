@@ -144,17 +144,16 @@
         font-size: 70px;
       }
     }
+
+    &--active .statistics__gaz-img {
+      opacity: 1;
+    }
   }
 
   &__gaz-block-inner,
   &__diz-block-inner {
     display: flex;
     width: 55%;
-    //margin-right: 15px;
-
-    @media  (min-width: $screen-sm) {
-      //margin-right: 60px;
-    }
 
     @media  (min-width: $screen-lg) {
       margin-right: 20px;
@@ -196,7 +195,9 @@
 
   &__gaz-img,
   &__diz-img {
+    opacity: 0;
     width: 45%;
+    transition: all .4s;
 
     @media  (min-width: $screen-sm) {
       max-width: 240px;
@@ -227,6 +228,10 @@
       @media (min-width: $screen-lg) {
         font-size: 70px;
       }
+    }
+
+    &--active .statistics__diz-img {
+      opacity: 1;
     }
   }
 }

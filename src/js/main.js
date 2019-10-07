@@ -15,7 +15,6 @@ $(document).ready(function() {
     scrollPrev = scrolled;
   });
 
-
   // БУРГЕР
   $('.header__burger')
     .click(function(e) {
@@ -29,16 +28,23 @@ $(document).ready(function() {
   });
 
   //КНОПКИ ГАЗ\ДИЗЕЛЬ
-  // $('.advantages__gaz-btn')
-  //   .click(function(e) {
-  //     e.preventDefault;
-  //
-  //     $('.advantages__gaz-btn')
-  //       .toggleClass('advantages__gaz-btn--active');
-  //
-  //     $('.advantages__diz-btn')
-  //       .toggleClass('advantages__diz-btn--active');
-  //   });
+  $('#gas').change(function(){
+    if($(this).is(':checked')) {
+      $('.statistics__gaz-block')
+        .toggleClass('statistics__gaz-block--active');
+      $('.statistics__diz-block')
+        .toggleClass('statistics__diz-block--active');
+    }
+  });
+
+  $('#diz').change(function(){
+    if($(this).is(':checked')) {
+      $('.statistics__diz-block')
+        .toggleClass('statistics__diz-block--active');
+      $('.statistics__gaz-block')
+        .toggleClass('statistics__gaz-block--active');
+    }
+  });
 
   //АККОРДЕОН
   $('.delivery__show-more-btn')
@@ -48,12 +54,10 @@ $(document).ready(function() {
       $('.card-page__traders')
         .not($(this).next())
         .toggleClass('card-page__traders-active');
-        // .slideUp(400);
 
       $(this)
         .next()
         .toggleClass('card-page__traders--active');
-        // .slideToggle(400);
 
       $(this)
         .toggleClass('delivery__show-more-btn--active');

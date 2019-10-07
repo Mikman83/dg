@@ -149,7 +149,6 @@ mixin card-page(cardPageCustomClass)
       .card-page__inner
         .card-page__price
           span.card-page__price-item!= 'от <span class="card-page__price-value">85000</span> ₽'
-        //.card-page__btn.delivery__show-more
         button.delivery__show-more-btn
           span.delivery__show-more-btn-open 16 предложений
           span.delivery__show-more-btn-close Свернуть
@@ -202,3 +201,21 @@ mixin card-page(cardPageCustomClass)
                 span Газовоз
               .card-page__trader-price
                 span.card-page__trader-price-value!= '<span class="card-page__trader-price-value-item">850000</span>&#160;₽'
+
+mixin article(articlePageCustomClass, imagePositionClass)
+  article.article(class=articlePageCustomClass)
+    .article__wrap
+      a(href='./article-page.html').article__img(class=imagePositionClass)
+        img(src='./img/pic.jpg' alt='Газгольдер' title='Газгольдер')
+      .article__inner
+        a(href='./article-page.html').articles__title
+          h2 Как заправлять газгольдер?
+        .article__date
+          span 29 августа 2019, 16:05
+        .article__text
+          p.
+            Сегодня автономное газовое отопление является одним из самых выгодных
+            способов для обеспечения объектов теплом и горячим водоснабжением в
+            местах, где нет центрального газоснабжения.
+        .article__read-link
+          a(href='./article-page.html') Читать

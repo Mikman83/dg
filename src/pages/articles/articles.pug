@@ -3,3 +3,24 @@ extends ../pug/layout
 block meta
   title Статьи
   meta(name='description', content='')
+
+block content
+  section.articles
+    .articles__wrap.container
+      +breadcrumbs('providers__breadcrumbs', 'Главная', 'Поставщики')
+      .articles__header
+        .articles__title
+          h1 Статьи
+        .articles__search.search
+          form.search__field
+            input(type='text' placeholder='Введите наименование компании').search__field-item
+            button(type='submit').search__field-btn
+              span найти
+      .articles__list
+        +article('articles__item')
+        +article('articles__item', 'article__img--right')
+        +article('articles__item')
+
+      .articles__btn.delivery__show-more
+        button.delivery__show-more-btn
+          span Показать еще
