@@ -1,0 +1,136 @@
+.article {
+
+  &__wrap {
+
+    @media (min-width: $screen-sm) {
+      display: flex;
+    }
+  }
+
+  &__img {
+    display: block;
+    margin-bottom: 15px;
+
+    @media (min-width: $screen-sm) {
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+
+  &__inner {
+
+    @media (min-width: $screen-sm) {
+      width: 50%;
+      padding-left: 30px;
+    }
+
+    @media (min-width: $screen-lg) {
+      display: flex;
+      flex-direction: column;
+      padding-top: 25px;
+      padding-left: 45px;
+    }
+
+    @media (min-width: $screen-xl) {
+      padding-top: 35px;
+      padding-left: 60px;
+      padding-bottom: 15px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      padding-bottom: 30px;
+    }
+
+    &--left {
+
+      @media (min-width: $screen-sm) {
+        order: -1;
+        padding-left: 0;
+        padding-right: 30px;
+      }
+
+      @media (min-width: $screen-lg) {
+        padding-right: 45px;
+      }
+
+      @media (min-width: $screen-xl) {
+        padding-right: 60px;
+      }
+    }
+  }
+
+  &__title {
+    display: block;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-lg) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__title h2 {
+    font-family: 'IBM Plex';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    color: $black;
+
+    @media (min-width: $screen-sm) {
+      line-height: 30px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 50px;
+      line-height: 60px;
+    }
+  }
+
+  &__date {
+    color: $grey;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__text {
+    display: none;
+
+    @media (min-width: $screen-sm) {
+      display: block;
+      font-size: 14px;
+      color: $grey-dark;
+      margin-bottom: 15px;
+    }
+
+    @media (min-width: $screen-lg) {
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+  &__read-link {
+
+    @media (min-width: $screen-xl) {
+      margin-top: auto;
+    }
+  }
+
+  &__read-link a {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.83px;
+    text-transform: uppercase;
+    color: $blue;
+
+    @media (min-width: $screen-sm) {
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+  }
+}

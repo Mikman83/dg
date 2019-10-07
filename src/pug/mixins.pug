@@ -202,13 +202,13 @@ mixin card-page(cardPageCustomClass)
               .card-page__trader-price
                 span.card-page__trader-price-value!= '<span class="card-page__trader-price-value-item">850000</span>&#160;₽'
 
-mixin article(articlePageCustomClass, imagePositionClass)
-  article.article(class=articlePageCustomClass)
+mixin article(articlePageCustomClass, blockPositionClass)
+  article(class=articlePageCustomClass).article
     .article__wrap
-      a(href='./article-page.html').article__img(class=imagePositionClass)
+      a(href='./article-page.html').article__img
         img(src='./img/pic.jpg' alt='Газгольдер' title='Газгольдер')
-      .article__inner
-        a(href='./article-page.html').articles__title
+      .article__inner(class=blockPositionClass)
+        a(href='./article-page.html').article__title
           h2 Как заправлять газгольдер?
         .article__date
           span 29 августа 2019, 16:05
