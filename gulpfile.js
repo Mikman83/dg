@@ -21,7 +21,6 @@ const concat = require('gulp-concat');
 const pug = require('gulp-pug');
 const prettyHtml = require('gulp-pretty-html');
 const replace = require('gulp-replace');
-// const cssmin = require('gulp-cssmin');
 const cssnano = require('gulp-cssnano');
 const rename = require('gulp-rename');
 
@@ -73,6 +72,7 @@ exports.compileStyles = compileStyles;
 function processJs() {
   return src([
     'node_modules/jquery/dist/jquery.min.js',
+    'node_modules/owl.carousel2/dist/owl.carousel.min.js',
       dir.src + 'js/main.js'
     ])
     .pipe(plumber({
