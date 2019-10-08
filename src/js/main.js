@@ -79,7 +79,7 @@ $(document).ready(function() {
     function counter(event) {
       let items = event.item.count;
       let item = event.item.index + 1;
-      $('.counter').html(item+" / "+items)
+      $('.counter').html("<span>" + item + "</span> / " + items)
     }
   });
 });

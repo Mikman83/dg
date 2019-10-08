@@ -1,0 +1,24 @@
+extends ../pug/layout
+
+block meta
+  title 404
+  meta(name='description', content='')
+
+block content
+  section.error-page
+    .error-page__wrap.container
+      +breadcrumbs('article-page__breadcrumbs', 'Главная', 'Ошибка')
+    .error-page__container
+      .error-page__back-link
+        a(onclick="javascript:history.back(); return false;") Вернуться назад
+      .error-page__title
+        span 404
+      .error-page__descr
+        span К сожалению, произошла ошибка!
+      .error-page__text
+        span.
+          Страницы по заданному адресу не существует
+          или она была перемещена.
+      .error-page__main-page-link
+        a(href='index.html').delivery__show-more-btn
+          span на главную

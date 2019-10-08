@@ -110,20 +110,12 @@ img {
   }
 
   @media (min-width: $screen-lg) {
-    width: 1080px;
+    width: 740px;
     margin: 0 auto;
   }
 
-  @media (min-width: $screen-xl) {
-    width: 1240px;
-  }
-
-  @media (min-width: $screen-xxl) {
-    width: 1400px;
-  }
-
   @media (min-width: $screen-xxxl) {
-    width: 1700px;
+    width: 940px;
   }
 }
 
