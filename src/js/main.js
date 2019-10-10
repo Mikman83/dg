@@ -65,21 +65,70 @@ $(document).ready(function() {
         .toggleClass('delivery__show-more-btn--active');
   });
 
-  //СЛАЙДЕР
+  //СЛАЙДЕР СТАТЬИ
   $(function () {
     let owl = $('.article-page__slider');
     owl.owlCarousel({
-      items:1,
+      loop: true,
+      items: 1,
+      nav: true,
+      onInitialized: counter,
+      onTranslated: counter,
+    });
+
+    function counter(event) {
+      let items = event.item.count;
+      let item = event.page.index + 1;
+      if (item == 0) {
+        item = 1;
+      }
+      $('.counter').html("<span>" + item + "</span> / " + items)
+    }
+  });
+
+  //СЛАЙДЕР ПОСТАВЩИКА
+  $(function () {
+    let owl = $('.provider__feedback-slider');
+    owl.owlCarousel({
+      loop: true,
       nav:true,
-      // dots:false,
+      mergeFit:true,
+      responsive : {
+        0 : {
+          items: 1
+        },
+        768 : {
+          items: 2
+        },
+        1280 : {
+          items: 3
+        }
+      },
       onInitialized  : counter,
       onTranslated : counter,
     });
 
     function counter(event) {
       let items = event.item.count;
-      let item = event.item.index + 1;
+      let item = event.page.index + 1;
+      if (item == 0) {
+        item = 1;
+      }
       $('.counter').html("<span>" + item + "</span> / " + items)
     }
   });
+
+  //КАРТА
+  function initialize() {
+    var location = new google.maps.LatLng(59.961183, 30.299698);
+
+    var mapOptions = {
+      center: location,
+      zoom: 15
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
 });

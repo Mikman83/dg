@@ -79,7 +79,7 @@ mixin breadcrumbs(colorClass, firstPage, lastPage)
 
 mixin card-mini(cardMiniCustomClass, ratingStatusClass)
   .card-mini(class=cardMiniCustomClass)
-    .card-mini__inner
+    a(href='./provider.html').card-mini__inner
       .card-mini__logo
         img(src='./img/logo.jpg')
       .card-mini__header
@@ -219,3 +219,29 @@ mixin article(articlePageCustomClass, blockPositionClass)
             местах, где нет центрального газоснабжения.
         .article__read-link
           a(href='./article-page.html') Читать
+
+mixin feedback-slide(slideCustomClass, ratingStatusClass)
+  .feedback(class=slideCustomClass)
+    .feedback__wrap
+      .feedback__header
+        .feedback__user-ava
+          img(src='./img/ava.png' alt='Аватар' title='Аватар').feedback__user-img
+        .feedback__inner
+          .feedback__name
+            span Василиса
+            span Новгородская
+          .feedback__date
+            span 01.07.2019
+      .feedback__rating
+        .card__rating-title
+          span Оценка
+        .card__rating-value(class=ratingStatusClass)
+          span 7.5
+      .feedback__text
+        p.
+          По сравнению с другими видами топлива газ является самым доступным
+          по цене, автономная газификация несет экономическую выгоду. Одним из
+          многочисленных преимуществ ее является автоматизированная работа
+          системы отопления
+      .feedback__details
+        a(href='feedback.html').feedback__details-link Подробнее

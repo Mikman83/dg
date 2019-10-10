@@ -1,0 +1,146 @@
+extends ../pug/layout
+
+block meta
+  title Поставщик
+  meta(name='description', content='')
+
+block content
+  .provider
+    .provider__wrap.container
+      +breadcrumbs('providers__breadcrumbs', 'Главная', 'Поставщик')
+      .provider__header
+        .provider__logo-cell
+          .provider__logo
+            img(src='./img/logo.jpg' alt='Логотип поставщика' title='Логотип поставщика')
+
+        .provider__title-cell
+          .provider__title
+            span Газовая перспектива
+          .provider__title-wrap
+            .card-mini__rating
+              .card-mini__rating-title
+                span Рейтинг
+              .card-mini__rating-value.text-success
+                span 7.5
+            .card-mini__feedback
+              .card-mini__feedback-count
+                span 5
+              .card-mini__feedback-property
+                span отзывов
+
+        .provider__contacts-cell
+          .provider__contacts
+            a(href='tel:+79219365026').provider__contacts-tel
+              span.provider__contacts-tel-img
+              span.provider__contacts-tel-item +7 (921) 936-50-29
+            a(href='mailto:avtonomnaya-gazifikatsiya@info.ru').provider__contacts-link avtonomnaya-gazifikatsiya@info.ru
+            a(href='avtonomnaya-gazifikatsiya.ru' target='_blank').provider__contacts-link avtonomnaya-gazifikatsiya.ru
+
+        .provider__wrapper
+          .provider__gas-cell
+            .provider__gas
+              .card-mini__advantages-gaz
+                span.card-mini__gaz-icon
+                span Газ
+              .card__price-item
+                .card__price-wrap
+                  .card__price-value
+                    span 29,75
+                  .card__price-currency
+                    span ₽/л
+                .card__price-conditions
+                  span Минимальный объем доставки 200 л
+          .provider__dis-cell
+            .provider__dis
+              .card-mini__advantages-diz
+                span.card-mini__diz-icon
+                span Дизель
+              .card__price-item
+                .card__price-wrap
+                  .card__price-value
+                    span 45,32
+                  .card__price-currency
+                    span ₽/л
+                .card__price-conditions
+                  span Минимальный объем доставки 200 л
+
+      .provider__about
+        .provider__stats
+          .provider__stats-item
+            .provider__val
+              span 12
+            .provider__prop
+              span Лет на рынке
+          .provider__stats-item
+            .provider__val
+              span 8
+            .provider__prop
+              span Единиц транспорта в распоряжении
+          .provider__stats-item
+            .provider__val
+              span %
+            .provider__prop
+              span Индивидуальный подход и скидки крупным заказчикам
+        .provider__about-text
+          p.
+            По сравнению с другими видами топлива газ является самым доступным
+            по цене, автономная газификация несет экономическую выгоду. Одним
+            из многочисленных преимуществ ее является автоматизированная работа
+            системы отопления и возможность осуществлять контроль над количеством
+            и состоянием газа в емкостях.
+          p.
+            «Газовая перспектива» предоставляет услуги по монтажу автономных
+            систем газоснабжения с использованием подземных емкостей для хранения
+            газа. При газификации объектов различного назначения мы устанавливаем
+            высококачественные сертифицированные газгольдеры, которые на практике
+            многократно доказали свои отличные технические и эксплуатационные
+            характеристики.
+
+
+      .provider__adress
+        .provider__adress-list
+          .provider__adress-location
+            span Москва и МО, Санкт-Петербург и ЛО
+          .provider__adress-item
+            .provider__adress-title
+              span Адрес
+            .provider__adress-text
+              input(type="radio" id="adress1" name="adresses" value="spb1" checked)
+              label(for="adress1") Санкт-Петербург, Свеаборгская улица д.12
+          .provider__adress-item
+            .provider__adress-title
+              span Филиалы
+            .provider__adress-text
+              input(type="radio" id="adress2" name="adresses" value="spb2")
+              label(for="adress2") Санкт-Петербург, Свеаборгская улица д.12
+            .provider__adress-text
+              input(type="radio" id="adress3" name="adresses" value="spb3")
+              label(for="adress3") Санкт-Петербург, Свеаборгская улица д.12
+          .provider__adress-all-btn.delivery__show-more
+            button.delivery__show-more-btn
+              span Показать все
+        .provider__adress-map.map
+          .map__item#map
+
+      .provider__feedback
+        .provider__feedback-header
+          .provider__feedback-title
+            h2 Отзывы о компании Газовая перспектива
+          .provider__feedback-action
+            button.card__order-btn
+              span Оставить отзыв
+        .provider__feedback-wrap
+          .provider__feedback-slider.owl-carousel
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+            +feedback-slide('provider__feedback-slide', 'text-success')
+          .provider__slider-counter
+            span.counter 1 / 1

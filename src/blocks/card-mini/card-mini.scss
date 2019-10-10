@@ -1,6 +1,7 @@
 .card-mini {
 
   &__inner {
+    display: block;
     padding: 10px 15px 25px;
     border: 1px solid $grey-light;
 
@@ -74,6 +75,7 @@
     font-size: 15px;
     line-height: 20px;
     font-weight: 300;
+    color: $grey-dark;
 
     @media (min-width: $screen-sm) {
       font-size: 20px;
@@ -286,8 +288,8 @@
 
   &__diz-icon {
     display: block;
-    width: 11px;
-    height: 17px;
+    width: 14px;
+    height: 21px;
     background-image: url('./../img/diz-grey.svg');
     background-repeat: no-repeat;
     background-size: cover;
