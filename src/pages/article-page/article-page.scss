@@ -107,6 +107,10 @@
     margin-bottom: 50px;
     overflow-x: scroll;
 
+    @media (min-width: $screen-lg) {
+      overflow-x: visible;
+    }
+
     @media (min-width: $screen-xl) {
       padding: 0 180px;
     }

@@ -131,4 +131,60 @@ $(document).ready(function() {
   }
 
   google.maps.event.addDomListener(window, 'load', initialize);
+
+  //МОДАЛЬНОЕ ОПРЕДЕЛЕНИЯ ГОРОДА
+  $(function () {
+    var open_modal = $('.location__value');
+    var close = $('.card__order-btn, .city-modal__overlay');
+    var modal = $('.city-modal__overlay');
+
+    open_modal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('href');
+      open_modal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    close.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+    });
+  });
+
+  //МОДАЛЬНОЕ ВЫБОРА ГОРОДА
+  $(function () {
+    var open_modal = $('.location__value');
+    var close = $('.cities-modal__link, .cities-modal__overlay');
+    var modal = $('.cities-modal__overlay');
+
+    open_modal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('href');
+      open_modal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    close.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+    });
+  });
 });

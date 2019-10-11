@@ -1,0 +1,81 @@
+.cities-modal {
+
+  &__overlay {
+    position:fixed;
+    height:100%;
+    width:100%;
+    left:0;
+    top:0;
+    background-color: rgba(35, 31, 32, 0.9);
+    z-index: 10;
+    display: none;
+    opacity: 0;
+
+    @media (min-width: $screen-sm) {
+      background-color: transparent;
+    }
+  }
+
+  &__item {
+    position:absolute;
+    width:300px;
+    height: 280px;
+    padding: 30px 20px 30px 30px;
+    left:50%;
+    top:50%;
+    margin: -150px 0 0 -150px;
+    background: #e5f1fd;
+
+    @media (min-width: $screen-sm) {
+      left: auto;
+      right: 112px;
+      top: 75px;
+      margin: 0;
+    }
+
+    @media (min-width: $screen-lg) {
+      right: 139px;
+    }
+  }
+
+  &__item:before {
+
+    @media (min-width: $screen-sm) {
+      position: absolute;
+      content: '';
+      display: block;
+      width: 27px;
+      height: 23px;
+      background-image: url(./../img/triangle.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: -15px;
+      left: 120px;
+    }
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  &__link {
+    width: 50%;
+    margin-bottom: 12px;
+    padding: 0 10px;
+  }
+
+  &__link a {
+    font-size: 14px;
+    line-height: 20px;
+    color: $blue;
+  }
+}
