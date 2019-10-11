@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  border: 2px solid $white;
+
+  &__cell-header,
+  &__cell-body {
+    width: 180px;
+    padding: 25px 60px;
+  }
+
+  &__cell-header {
+    font-family: 'IBM Plex';
+    font-size: 16px;
+    font-weight: 300;
+    color: $grey-lighter;
+  }
+
+  &__cell-body {
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid $grey-light;
+  }
+}

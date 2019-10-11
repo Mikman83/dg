@@ -101,6 +101,17 @@
     }
   }
 
+  &__table-block {
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+
+    @media (min-width: $screen-xl) {
+      padding: 0 180px;
+    }
+  }
+
   &__slider-block {
     padding: 0 10px;
 
