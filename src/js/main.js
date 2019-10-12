@@ -135,8 +135,10 @@ $(document).ready(function() {
   //МОДАЛЬНОЕ ОПРЕДЕЛЕНИЯ ГОРОДА
   $(function () {
     var open_modal = $('.location__value');
-    var close = $('.card__order-btn, .city-modal__overlay');
+    var close = $('.card__order-btn, .city-modal__overlay, .cities-modal__overlay');
+    var closeCities = $('.card__order-btn, .cities-modal__overlay');
     var modal = $('.city-modal__overlay');
+    var modalCities = $('.cities-modal__overlay');
 
     open_modal.click(function (event) {
       event.preventDefault();
@@ -151,6 +153,16 @@ $(document).ready(function() {
 
     close.click(function () {
       modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+    });
+
+    closeCities.click(function () {
+      modalCities
         .animate({opacity: 0}, 200,
           function () {
             $(this).css('display', 'none');
