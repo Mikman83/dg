@@ -1,4 +1,5 @@
 .sort {
+  position: relative;
   text-align: center;
   margin-bottom: 12px;
 
@@ -17,5 +18,71 @@
     color: $blue;
     border-bottom: 1px dashed $blue;
     cursor: pointer;
+  }
+
+  &__overlay {
+    position:fixed;
+    height:100%;
+    width:100%;
+    left:0;
+    top:0;
+    background-color: transparent;
+    z-index: 10;
+    display: none;
+    opacity: 0;
+
+    //@media (min-width: $screen-sm) {
+    //  background-color: transparent;
+    //}
+  }
+
+  &__modal {
+    position: absolute;
+    width: 260px;
+    height: 350px;
+    padding: 30px 0 0 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: $white;
+    border: 1px solid $grey-lighter;
+
+    @media (min-width: $screen-sm) {
+      left: auto;
+      right: -105px;
+      margin: 0;
+    }
+
+    @media (min-width: $screen-lg) {
+      right: 30px;
+    }
+
+    @media (min-width: $screen-xl) {
+      right: 50px;
+    }
+
+    @media (min-width: $screen-xxl) {
+      right: 70px;
+    }
+  }
+
+  &__inner {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  &__items {
+    text-align: left;
+  }
+
+  &__item-link {
+    display: block;
+    line-height: 20px;
+    color: $blue;
+    margin-bottom: 10px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
   }
 }

@@ -15,9 +15,25 @@ mixin location(locationCustomClass)
     a(href='.city-modal__overlay').location__value Санкт-Петербург
 
 mixin sort(sortCustomClass)
-  .sort(class=sortCustomClass)
-    span.sort__title Сортировка:
-    a(href='#').sort__value по рейтингу
+  .sort(class=sortCustomClass).sort--active
+    .sort__wrap
+      span.sort__title Сортировка:
+      a(href='.sort__overlay').sort__value по рейтингу
+    .sort__overlay
+      .sort__modal
+        .sort__inner
+          span.sort__title Сортировка:
+          a(href='#').sort__value по рейтингу
+        .sort__items
+          a(href='#').sort__item-link по цене  ↑
+          a(href='#').sort__item-link по цене  ↓
+          a(href='#').sort__item-link по рейтингу  ↑
+          a(href='#').sort__item-link по рейтингу  ↓
+          a(href='#').sort__item-link по min объем доставки  ↑
+          a(href='#').sort__item-link по min объем доставки  ↓
+          a(href='#').sort__item-link по дате обновления  ↑
+          a(href='#').sort__item-link по дате обновления  ↓
+
 
 mixin card(cardCustomClass, ratingStatusClass, statusClass)
   .card(class=cardCustomClass)

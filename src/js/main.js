@@ -162,9 +162,9 @@ $(document).ready(function() {
 
   //МОДАЛЬНОЕ ВЫБОРА ГОРОДА
   $(function () {
-    var open_modal = $('.location__value');
-    var close = $('.cities-modal__link, .cities-modal__overlay');
-    var modal = $('.cities-modal__overlay');
+    var open_modal = $('.sort__value');
+    var close = $('.sort__overlay, .sort__item-link');
+    var modal = $('.sort__overlay');
 
     open_modal.click(function (event) {
       event.preventDefault();
@@ -187,4 +187,6 @@ $(document).ready(function() {
         );
     });
   });
+
+  //МОДАЛЬНОЕ СОРТИРОВКА
 });
