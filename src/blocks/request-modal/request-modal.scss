@@ -33,9 +33,12 @@
     background-image: url('./../img/close.svg');
     background-size: cover;
     background-repeat: no-repeat;
-  }
 
-  &__wrap {}
+    @media (min-width: $screen-sm) {
+      width: 25px;
+      height: 25px;
+    }
+  }
 
   &__title {
     font-family: 'IBM Plex';
