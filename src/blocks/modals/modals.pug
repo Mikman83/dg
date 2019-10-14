@@ -10,6 +10,7 @@
               span да
           .city-modal__link
             a(href=".cities-modal__overlay").location__value Другой город
+
   .modals__cities.cities-modal
     .cities-modal__overlay
       .cities-modal__item
@@ -36,3 +37,27 @@
             a(href='#') Санкт-Петербург
           .cities-modal__link
             a(href='#') Сыктывкар
+
+  .modals__request.request-modal
+    .request-modal__close
+      span Закрыть
+    .request-modal__wrap
+      .request-modal__title
+        span Отправить заявку
+      form.request-modal__form
+        fieldset.request-modal__fieldset
+          legend.request-modal__legend Ваше имя
+          input(type="text" id="name" name="name").request-modal__input
+        fieldset.request-modal__fieldset
+          legend.request-modal__legend!= 'Ваш номер телефона <span>*</span>'
+          input(type="tel" id="tel" name="tel").request-modal__input
+        fieldset.request-modal__fieldset
+          legend.request-modal__legend!= 'Название компании <span>*</span>'
+          input(type="text" id="company" name="company").request-modal__input
+        button.request-modal__btn.btn(type="submit" data-success='.success-modal')
+          span Отправить
+  .modals__success.success-modal
+    .success-modal__close
+      span Закрыть
+    .success-modal__text
+      span Спасибо за заявку, в ближайшее время с вами свяжутся наши менеджеры.

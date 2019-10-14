@@ -73,6 +73,8 @@ function processJs() {
   return src([
     'node_modules/jquery/dist/jquery.min.js',
     'node_modules/owl.carousel2/dist/owl.carousel.min.js',
+    'node_modules/jquery-validation/dist/jquery.validate.js',
+    'node_modules/jquery-validation/dist/additional-methods.js',
       dir.src + 'js/main.js'
     ])
     .pipe(plumber({

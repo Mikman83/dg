@@ -1,0 +1,94 @@
+.request-modal {
+  position: fixed;
+  height:100%;
+  width:100%;
+  padding: 30px 10px;
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  background-color: $white;
+  z-index: 10;
+  display: none;
+  opacity: 0;
+
+  @media (min-width: $screen-sm) {
+    padding: 60px;
+  }
+
+  &__close {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm) {
+      text-align: right;
+    }
+  }
+
+  &__close span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./../img/close.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__wrap {}
+
+  &__title {
+    font-family: 'IBM Plex';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  &__form {
+
+    @media (min-width: $screen-sm) {
+      width: 460px;
+      margin: 0 auto;
+    }
+  }
+
+  &__fieldset {
+    height: 50px;
+    margin-bottom: 28px;
+    border: 1px solid $grey-lighter;
+    color: $grey;
+  }
+
+  &__legend {
+    margin-left: 20px;
+    padding: 0 5px;
+
+    @media (min-width: $screen-sm) {
+      font-size: 14px;
+    }
+  }
+
+  &__legend span {
+    color: $blue-light;
+  }
+
+  &__input {
+    width: calc(100% - 40px);
+    height: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+
+  &__btn {
+    color: $white;
+    margin: 0 auto;
+    padding: 0 35px;
+    background-image: linear-gradient(135deg, $blue-light 0%, $blue 100%);
+
+    @media (min-width: $screen-sm) {
+      font-size: 16px;
+    }
+  }
+}

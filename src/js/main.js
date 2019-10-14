@@ -172,7 +172,7 @@ $(document).ready(function() {
     });
   });
 
-  //МОДАЛЬНОЕ ВЫБОРА ГОРОДА
+  //МОДАЛЬНОЕ СОРТИРОВКА
   $(function () {
     var open_modal = $('.sort__value');
     var close = $('.sort__overlay, .sort__item-link');
@@ -200,5 +200,71 @@ $(document).ready(function() {
     });
   });
 
-  //МОДАЛЬНОЕ СОРТИРОВКА
+  //МОДАЛЬНОЕ ОТПРАВИТЬ ЗАЯВКУ
+  $(function () {
+    var open_modal = $('.lead-block__btn');
+    var close = $('.request-modal__close');
+    var modal = $('.request-modal');
+
+    open_modal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('data-link');
+      open_modal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    close.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+    });
+  });
+
+  $('.request-modal__input').focus(function () {
+    $(this).parent().css('border', '1px solid rgba(24, 195, 244, 0.29)');
+  });
+
+  $('.request-modal__input').blur(function () {
+    if($(this).hasClass("error")) {
+      $(this).parent().css('border', '1px solid #f14040');
+    } else {
+      $(this).parent().css('border', '1px solid #e5e5e5');
+    }
+  });
+
+  var form = $(".request-modal__form");
+  $.validator.addMethod("letters", function(value, element) {
+    return this.optional(element) || value == value.match(/^[a-zA-Z ]*$/);
+  });
+  $.validator.addMethod("checkTel", function(value, element) {
+    return /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/g.test(value);
+  });
+  form.validate({
+    rules: {
+      company: {
+        required: true,
+        minlength: 3,
+        letters: true
+      },
+      tel: {
+        required: true,
+        checkTel: true
+      }
+    },
+    messages: {
+      company: "Неправильно введена инфо или не заполнено поле",
+      tel: "Неправильно введена инфо или не заполнено поле"
+    },
+    submitHandler: function() {}
+  });
+
+
 });
