@@ -57,7 +57,38 @@
         button.request-modal__btn.btn(type="submit" data-success='.success-modal')
           span Отправить
   .modals__success.success-modal
-    .success-modal__close
-      span Закрыть
-    .success-modal__text
-      span Спасибо за заявку, в ближайшее время с вами свяжутся наши менеджеры.
+    .success-modal__wrap
+      .success-modal__close
+        span Закрыть
+      .success-modal__text
+        span Спасибо за заявку, в ближайшее время с вами свяжутся наши менеджеры.
+  .modal__review-page.review-page
+    .review-page__wrap
+      .review-page__close
+        span Закрыть
+      .review-page__wrapper
+        .review-page__header
+          .review-page__user-ava
+            img(src='./img/ava.png' alt='Аватар' title='Аватар').review-page__user-img
+          .review-page__inner
+            .review-page__name
+              span Василиса
+              span Новгородская
+            .review-page__date
+              span 01.07.2019
+        .review-page__rating
+          .card__rating-title
+            span Оценка
+          .card__rating-value.text-success
+            span 7.5
+        .review-page__text
+          p.
+            По сравнению с другими видами топлива газ является самым доступным
+            по цене, автономная газификация несет экономическую выгоду. Одним из
+            многочисленных преимуществ ее является автоматизированная работа
+            системы отопления
+          p.
+            По сравнению с другими видами топлива газ является самым доступным
+            по цене, автономная газификация несет экономическую выгоду. Одним из
+            многочисленных преимуществ ее является автоматизированная работа
+            системы отопления

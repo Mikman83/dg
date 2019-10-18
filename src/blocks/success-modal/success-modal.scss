@@ -1,6 +1,4 @@
 .success-modal {
-  display: flex;
-  flex-direction: column;
   position: fixed;
   height:100%;
   width:100%;
@@ -11,11 +9,17 @@
   bottom: 0;
   background-color: $white;
   z-index: 11;
-  //display: none;
-  //opacity: 0;
+  display: none;
+  opacity: 0;
 
   @media (min-width: $screen-sm) {
     padding: 60px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
   }
 
   &__close {

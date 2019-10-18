@@ -134,16 +134,16 @@ $(document).ready(function() {
 
   //МОДАЛЬНОЕ ОПРЕДЕЛЕНИЯ ГОРОДА
   $(function () {
-    var open_modal = $('.location__value');
+    var openModal = $('.location__value');
     var close = $('.card__order-btn, .city-modal__overlay, .cities-modal__overlay');
     var closeCities = $('.card__order-btn, .cities-modal__overlay');
     var modal = $('.city-modal__overlay');
     var modalCities = $('.cities-modal__overlay');
 
-    open_modal.click(function (event) {
+    openModal.click(function (event) {
       event.preventDefault();
       var div = $(this).attr('href');
-      open_modal.fadeIn(400,
+      openModal.fadeIn(400,
         function () {
           $(div)
             .css('display', 'block')
@@ -174,14 +174,14 @@ $(document).ready(function() {
 
   //МОДАЛЬНОЕ СОРТИРОВКА
   $(function () {
-    var open_modal = $('.sort__value');
+    var openModal = $('.sort__value');
     var close = $('.sort__overlay, .sort__item-link');
     var modal = $('.sort__overlay');
 
-    open_modal.click(function (event) {
+    openModal.click(function (event) {
       event.preventDefault();
       var div = $(this).attr('href');
-      open_modal.fadeIn(400,
+      openModal.fadeIn(400,
         function () {
           $(div)
             .css('display', 'block')
@@ -202,14 +202,17 @@ $(document).ready(function() {
 
   //МОДАЛЬНОЕ ОТПРАВИТЬ ЗАЯВКУ
   $(function () {
-    var open_modal = $('.lead-block__btn');
-    var close = $('.request-modal__close');
+    var openModal = $('.lead-block__btn');
+    var openThx = $('.request-modal__btn');
+    var closeRequest = $('.request-modal__close, .request-modal__btn');
+    var closeThx = $('.success-modal__close');
     var modal = $('.request-modal');
+    var modalThx = $('.modals__success');
 
-    open_modal.click(function (event) {
+    openModal.click(function (event) {
       event.preventDefault();
       var div = $(this).attr('data-link');
-      open_modal.fadeIn(400,
+      openModal.fadeIn(400,
         function () {
           $(div)
             .css('display', 'block')
@@ -217,7 +220,18 @@ $(document).ready(function() {
         });
     });
 
-    close.click(function () {
+    openThx.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('data-success');
+      openThx.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    closeRequest.click(function () {
       modal
         .animate({opacity: 0}, 200,
           function () {
@@ -225,7 +239,21 @@ $(document).ready(function() {
             modal.fadeOut(400);
           }
         );
+
+      setTimeout(closeThxModal, 3000);
     });
+
+    function closeThxModal() {
+      modalThx
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modalThx.fadeOut(400);
+          }
+        );
+    }
+
+    closeThx.click(closeThxModal);
   });
 
   $('.request-modal__input').focus(function () {
@@ -266,5 +294,31 @@ $(document).ready(function() {
     submitHandler: function() {}
   });
 
+  //МОДАЛЬНОЕ ОКНО ПОДРОБНОГО ОТЗЫВА
+  $(function () {
+    var openModal = $('.feedback__details-link');
+    var close = $('.review-page__close');
+    var modal = $('.review-page');
 
+    openModal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('href');
+      openModal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    close.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+    });
+  });
 });
