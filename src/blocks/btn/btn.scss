@@ -1,4 +1,10 @@
 .btn {
+  font-family: $font-main;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background: transparent;
+  outline: none;
   display: flex;
   align-items: center;
   width: fit-content;
@@ -6,6 +12,10 @@
   border-radius: 25px;
   border: 1px solid $white;
   padding: 0 25px;
+
+  @media (min-width: $screen-lg) {
+    cursor: pointer;
+  }
 
   &__text {
     font-size: 12px;

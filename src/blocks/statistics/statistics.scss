@@ -197,7 +197,7 @@
   &__diz-img {
     opacity: 0;
     width: 45%;
-    transition: all .4s;
+    transition: all 1s;
 
     @media  (min-width: $screen-sm) {
       max-width: 240px;

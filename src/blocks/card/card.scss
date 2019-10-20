@@ -265,6 +265,10 @@
   }
 
   &__order-btn {
+    font-family: $font-main;
+    line-height: inherit;
+    border: none;
+    outline: none;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;

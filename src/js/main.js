@@ -208,6 +208,7 @@ $(document).ready(function() {
     var closeThx = $('.success-modal__close');
     var modal = $('.request-modal');
     var modalThx = $('.modals__success');
+    var error = $('.request-modal__fieldset .error');
 
     openModal.click(function (event) {
       event.preventDefault();
@@ -221,14 +222,28 @@ $(document).ready(function() {
     });
 
     openThx.click(function (event) {
-      event.preventDefault();
-      var div = $(this).attr('data-success');
-      openThx.fadeIn(400,
-        function () {
-          $(div)
-            .css('display', 'block')
-            .animate({opacity: 1}, 200);
-        });
+      if(!error) {
+        $(this).attr('disabled', 'disabled');
+      } else {
+        $(this).removeAttr('disabled');
+        event.preventDefault();
+        var div = $(this).attr('data-success');
+        openThx.fadeIn(400,
+          function () {
+            $(div)
+              .css('display', 'block')
+              .animate({opacity: 1}, 200);
+          });
+      }
+
+      // event.preventDefault();
+      // var div = $(this).attr('data-success');
+      // openThx.fadeIn(400,
+      //   function () {
+      //     $(div)
+      //       .css('display', 'block')
+      //       .animate({opacity: 1}, 200);
+      //   });
     });
 
     closeRequest.click(function () {
@@ -270,7 +285,7 @@ $(document).ready(function() {
 
   var form = $(".request-modal__form");
   $.validator.addMethod("letters", function(value, element) {
-    return this.optional(element) || value == value.match(/^[a-zA-Z ]*$/);
+    return this.optional(element) || value == value.match(/^[a-zA-Z а-яА-ЯёЁ'"`]*$/);
   });
   $.validator.addMethod("checkTel", function(value, element) {
     return /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/g.test(value);

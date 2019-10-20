@@ -21,6 +21,10 @@
   &__logo {
     display: block;
     width: 74px;
+
+    @media (min-width: $screen-sm) {
+      width: 100px;
+    }
   }
 
   &__burger {
@@ -28,6 +32,13 @@
     width: 25px;
     height: 25px;
     padding: 4px 0;
+    font-family: $font-main;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
 
     @media (min-width: $screen-lg) {
       display: none;
@@ -121,8 +132,10 @@
       flex-direction: column;
       width: 100%;
       height: calc(100vh - 47px);
+      margin: 0;
+      margin-top: 5px;
       background-color: rgba(255, 255, 255, 0.9);
-      top: 46px;
+      top: 80px;
       right: 0;
       z-index: 2;
     }
@@ -147,12 +160,14 @@
       bottom: 0;
       padding: 0 25px;
       background-color: $white;
+      border-left: 1px solid $grey-light;
     }
 
     @media (min-width: $screen-lg) {
       position: static;
       width: auto;
       padding: 0;
+      border-left: none;
     }
   }
 

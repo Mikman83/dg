@@ -47,14 +47,14 @@
       form.request-modal__form
         fieldset.request-modal__fieldset
           legend.request-modal__legend Ваше имя
-          input(type="text" id="name" name="name").request-modal__input
+          input(type="text" id="name" name="name" autocomplete="off").request-modal__input
         fieldset.request-modal__fieldset
           legend.request-modal__legend!= 'Ваш номер телефона <span>*</span>'
-          input(type="tel" id="tel" name="tel").request-modal__input
+          input(type="tel" id="tel" name="tel" autocomplete="off").request-modal__input
         fieldset.request-modal__fieldset
           legend.request-modal__legend!= 'Название компании <span>*</span>'
-          input(type="text" id="company" name="company").request-modal__input
-        button.request-modal__btn.btn(type="submit" data-success='.success-modal')
+          input(type="text" id="company" name="company" autocomplete="off").request-modal__input
+        button.request-modal__btn.request-modal__btn--disabled.btn(type="submit" data-success='.success-modal')
           span Отправить
   .modals__success.success-modal
     .success-modal__wrap
