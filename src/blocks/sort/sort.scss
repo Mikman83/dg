@@ -7,6 +7,11 @@
     text-align: right;
   }
 
+  @media (min-width: $screen-lg) {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
   &__title {
     font-size: 14px;
     color: $grey;
@@ -21,35 +26,31 @@
   }
 
   &__overlay {
-    position:fixed;
-    height:100%;
-    width:100%;
-    left:0;
-    top:0;
+    position: absolute;
+    height: 100%;
+    width: fit-content;
+    left: 50%;
+    top: -30px;
+    transform: translate(-50%, 0);
     background-color: transparent;
     z-index: 10;
     display: none;
     opacity: 0;
 
-    //@media (min-width: $screen-sm) {
-    //  background-color: transparent;
-    //}
+    @media (min-width: $screen-sm) {
+      left: auto;
+      right: -130px;
+    }
   }
 
   &__modal {
-    position: absolute;
     width: 260px;
     height: 350px;
     padding: 30px 0 0 50px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     background: $white;
     border: 1px solid $grey-lighter;
 
     @media (min-width: $screen-sm) {
-      left: auto;
-      right: -105px;
       margin: 0;
     }
 

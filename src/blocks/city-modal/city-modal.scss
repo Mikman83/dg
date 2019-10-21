@@ -1,5 +1,17 @@
 .city-modal {
 
+  @media (min-width: $screen-sm) {
+    position:absolute;
+    background-color: transparent;
+    left: 150px;
+    top: 203px;
+    z-index: 2;
+  }
+
+  @media (min-width: $screen-lg) {
+    right: 139px;
+  }
+
   &__overlay {
     position:fixed;
     height:100%;
@@ -12,8 +24,15 @@
     opacity: 0;
 
     @media (min-width: $screen-sm) {
+      position: static;
       background-color: transparent;
+      //left: 1px;
+      //top: 15px;
     }
+    //
+    //@media (min-width: $screen-lg) {
+    //  right: 139px;
+    //}
   }
 
   &__item {
@@ -27,14 +46,7 @@
     background: #e5f1fd;
 
     @media (min-width: $screen-sm) {
-      left: auto;
-      right: 112px;
-      top: 75px;
-      margin: 0;
-    }
-
-    @media (min-width: $screen-lg) {
-      right: 139px;
+      position: static;
     }
   }
 
@@ -49,8 +61,8 @@
       background-image: url(./../img/triangle.svg);
       background-repeat: no-repeat;
       background-size: cover;
-      top: -15px;
-      left: 120px;
+      top: -165px;
+      left: -15px;
     }
   }
 

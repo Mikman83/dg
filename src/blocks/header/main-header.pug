@@ -1,0 +1,14 @@
+header.header
+  .header__container.container
+    .header__home-link(href='./index.html')
+      img.header__logo( src='./img/logo.svg' alt='Главная' title='Главная')
+
+    .header__wrap
+      .header__inner
+        +nav('header__nav')
+      +location('header__location')
+
+    a.header__phone(href='tel:+78006726767') 8 800 672-67-67
+
+    button.header__burger
+      span меню

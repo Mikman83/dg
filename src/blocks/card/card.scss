@@ -204,6 +204,7 @@
 
     @media (min-width: $screen-sm) {
       margin-bottom: 12px;
+      margin-top: -12px;
     }
 
     @media (min-width: $screen-lg) {
@@ -237,6 +238,7 @@
     font-size: 12px;
     font-weight: 500;
     align-self: flex-end;
+    margin-bottom: 3px;
 
     @media (min-width: $screen-sm) {
       font-size: 16px;
@@ -257,6 +259,7 @@
 
     @media (min-width: $screen-sm) {
       min-width: 111px;
+      margin-top: -12px;
     }
 
     @media (min-width: $screen-xxl) {

@@ -20,6 +20,10 @@
     padding: 100px 218px;
   }
 
+  @media (min-width: $screen-xl) {
+    padding: 100px 218px;
+  }
+
   &__close {
     font-size: 0;
     text-align: center;
@@ -30,6 +34,10 @@
     }
 
     @media (min-width: $screen-lg) {
+      margin-bottom: 65px;
+    }
+
+    @media (min-width: $screen-xl) {
       margin-bottom: 85px;
     }
   }
