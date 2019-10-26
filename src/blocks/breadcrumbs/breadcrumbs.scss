@@ -1,11 +1,16 @@
 .breadcrumbs {
 
+  @media (min-width: $screen-lg) {
+    margin-bottom: 15px;
+  }
+
   &__list {
     display: flex;
   }
 
   &__item {
     font-size: 10px;
+    color: $grey;
 
     @media (min-width: $screen-sm) {
       font-size: 12px;

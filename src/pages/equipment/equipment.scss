@@ -57,5 +57,9 @@
 
   &__btn {
     margin: 20px 0;
+
+    @media (min-width: $screen-lg) {
+      margin: 38px 0 84px;
+    }
   }
 }

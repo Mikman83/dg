@@ -235,15 +235,6 @@ $(document).ready(function() {
               .animate({opacity: 1}, 200);
           });
       }
-
-      // event.preventDefault();
-      // var div = $(this).attr('data-success');
-      // openThx.fadeIn(400,
-      //   function () {
-      //     $(div)
-      //       .css('display', 'block')
-      //       .animate({opacity: 1}, 200);
-      //   });
     });
 
     closeRequest.click(function () {
@@ -336,4 +327,181 @@ $(document).ready(function() {
         );
     });
   });
+
+  //МОДАЛЬНОЕ ОКНО ОТЗЫВА
+  $(function () {
+    var openModal = $('.card__order-btn');
+    var close = $('.feedback-modal__close, .request-modal__btn');
+    var modal = $('.feedback-modal');
+    var modalThx = $('.feedback-thx');
+    var closeThx = $('.feedback-thx__close');
+
+    openModal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('data-link');
+      openModal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    close.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+
+      setTimeout(closeThxModal, 3000);
+    });
+
+    function closeThxModal() {
+      modalThx
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modalThx.fadeOut(400);
+          }
+        );
+    }
+
+    closeThx.click(closeThxModal);
+  });
+
+  //МОДАЛЬНОЕ ОКНО ЗАКАЗА
+  $(function () {
+    var openModal = $('.card__order-btn');
+    var openThx = $('.lead-modal__btn');
+    var closeRequest = $('.lead-modal__close, .lead-modal__btn');
+    var closeThx = $('.success-modal__close');
+    var modal = $('.lead-modal');
+    var modalThx = $('.modals__success');
+    var error = $('.lead-modal__fieldset .error');
+
+    openModal.click(function (event) {
+      event.preventDefault();
+      var div = $(this).attr('data-link');
+      openModal.fadeIn(400,
+        function () {
+          $(div)
+            .css('display', 'block')
+            .animate({opacity: 1}, 200);
+        });
+    });
+
+    openThx.click(function (event) {
+      if(!error) {
+        $(this).attr('disabled', 'disabled');
+      } else {
+        $(this).removeAttr('disabled');
+        event.preventDefault();
+        var div = $(this).attr('data-success');
+        openThx.fadeIn(400,
+          function () {
+            $(div)
+              .css('display', 'block')
+              .animate({opacity: 1}, 200);
+          });
+      }
+    });
+
+    closeRequest.click(function () {
+      modal
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modal.fadeOut(400);
+          }
+        );
+
+      setTimeout(closeThxModal, 3000);
+    });
+
+    function closeThxModal() {
+      modalThx
+        .animate({opacity: 0}, 200,
+          function () {
+            $(this).css('display', 'none');
+            modalThx.fadeOut(400);
+          }
+        );
+    }
+
+    closeThx.click(closeThxModal);
+  });
+
+  $('.lead-modal__input').focus(function () {
+    $(this).parent().css('border', '1px solid rgba(24, 195, 244, 0.29)');
+  });
+
+  $('.lead-modal__input').blur(function () {
+    if($(this).hasClass("error")) {
+      $(this).parent().css('border', '1px solid #f14040');
+    } else {
+      $(this).parent().css('border', '1px solid #e5e5e5');
+    }
+  });
+
+  var form = $(".lead-modal__form");
+  $.validator.addMethod("letters", function(value, element) {
+    return this.optional(element) || value == value.match(/^[a-zA-Z а-яА-ЯёЁ'"`]*$/);
+  });
+  $.validator.addMethod("checkTel", function(value, element) {
+    return /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/g.test(value);
+  });
+  form.validate({
+    rules: {
+      company: {
+        required: true,
+        minlength: 3,
+        letters: true
+      },
+      tel: {
+        required: true,
+        checkTel: true
+      }
+    },
+    messages: {
+      company: "Неправильно введена инфо или не заполнено поле",
+      tel: "Неправильно введена инфо или не заполнено поле"
+    },
+    submitHandler: function() {}
+  });
 });
+
+//РЕЙТИНГ
+let starParts = [...document.querySelectorAll(".star__part")];
+let rating = 0;
+
+starParts.forEach(function(item, idx) {
+  item.addEventListener("mouseover",function(e) {
+
+    let hoveredIndex = idx;
+    starParts.forEach(function(item, idx){
+      if(idx <= hoveredIndex) {
+        item.classList.add('hovered');
+      } else {
+        item.classList.remove('hovered')
+      }
+    });
+
+  });
+
+  item.addEventListener("click", function(e){
+    let selectedIndex = idx;
+
+    starParts.forEach(function(item, idx){
+      if(idx <= selectedIndex) {
+        item.classList.add('selected');
+
+      } else {
+        item.classList.remove('selected')
+      }
+    })
+  })
+});
+

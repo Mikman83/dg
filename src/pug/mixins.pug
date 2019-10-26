@@ -58,13 +58,13 @@ mixin card(cardCustomClass, ratingStatusClass, statusClass)
               span Рейтинг
             .card__rating-value(class=ratingStatusClass)
               span 7.5
-          .card__feedback
+          a(href="provider.html#feedback").card__feedback
             .card__feedback-count
               span 5
             .card__feedback-property
               span отзывов
       .card__inner
-        .card__adress
+        a(href="provider.html#adress").card__adress
           span Санкт-Петербург, Свеаборгская улица д.12
         .card__delivery
           span Доставка бесплатно в пределах 90 км от КАД, далее от 200 ₽.
@@ -84,10 +84,10 @@ mixin card(cardCustomClass, ratingStatusClass, statusClass)
               span Минимальный объем доставки 200 л
 
         .card__btn
-          button.card__order-btn
+          button.card__order-btn(data-link=".lead-modal")
             span заказать
       .card__details
-        a(href='#').card__details-link Подробнее
+        a(href='provider.html').card__details-link Подробнее
 
 mixin slide(slideCustomClass, slidedBg)
   .slide(class=slideCustomClass style=slidedBg)

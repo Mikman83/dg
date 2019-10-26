@@ -1,36 +1,33 @@
 .search {
 
-  &__field {
-    position: relative;
-    width: 100%;
-
-    input[type="search"]::placeholder {
-      font-size: 14px;
-      font-weight: 400;
-      color: $grey-dark;
-
-      @media (min-width: $screen-sm) {
-        font-size: 20px;
-      }
-    }
-  }
-
   &__field-item {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey-dark;
+    background: transparent;
+    border: none;
     width: 100%;
-    padding: 10px 35px 5px 5px;
+    padding: 0 35px 17px 5px;
     border-bottom: 1px solid $blue;
     outline: none;
 
     @media (min-width: $screen-sm) {
+      font-size: 16px;
       padding: 15px 35px 15px 10px;
     }
 
     @media (min-width: $screen-lg) {
-      padding: 17px 35px;
+      padding: 13px 35px;
       padding-right: 115px;
       border-radius: 25px;
-      border: 1px solid $blue-light;
+      border: 1px solid #cbe2f9;
     }
+  }
+
+  &__field {
+    position: relative;
+    width: 100%;
   }
 
   &__field-btn {
@@ -40,12 +37,15 @@
     height: 18px;
     border: none;
     right: 5px;
-    top: 7px;
+    top: 0;
+    background: transparent;
     background-image: url('./../img/search.svg');
     background-repeat: no-repeat;
     background-size: cover;
 
     @media (min-width: $screen-sm) {
+      width: 21px;
+      height: 21px;
       top: 15px;
       right: 10px;
     }

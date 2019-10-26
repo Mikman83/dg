@@ -97,7 +97,7 @@ block content
             характеристики.
 
 
-      .provider__adress
+      .provider__adress#adress
         .provider__adress-list
           .provider__adress-location
             span Москва и МО, Санкт-Петербург и ЛО
@@ -122,12 +122,12 @@ block content
         .provider__adress-map.map
           .map__item#map
 
-      .provider__feedback
+      .provider__feedback#feedback
         .provider__feedback-header
           .provider__feedback-title
             h2 Отзывы о компании Газовая перспектива
           .provider__feedback-action
-            button.card__order-btn
+            button.card__order-btn(data-link=".feedback-modal")
               span Оставить отзыв
         .provider__feedback-wrap
           .provider__feedback-slider.owl-carousel

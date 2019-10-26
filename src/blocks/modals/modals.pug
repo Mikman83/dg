@@ -1,5 +1,4 @@
 .modals
-  .modals__city
 
   .modals__cities.cities-modal
     .cities-modal__overlay
@@ -40,18 +39,43 @@
           input(type="text" id="name" name="name" autocomplete="off").request-modal__input
         fieldset.request-modal__fieldset
           legend.request-modal__legend!= 'Ваш номер телефона <span>*</span>'
-          input(type="tel" id="tel" name="tel" autocomplete="off").request-modal__input
+          input(type="tel" id="tel" name="tel" autocomplete="off" required).request-modal__input
         fieldset.request-modal__fieldset
           legend.request-modal__legend!= 'Название компании <span>*</span>'
-          input(type="text" id="company" name="company" autocomplete="off").request-modal__input
+          input(type="text" id="company" name="company" autocomplete="off" required).request-modal__input
         button.request-modal__btn.request-modal__btn--disabled.btn(type="submit" data-success='.success-modal')
           span Отправить
+
+  .modals__lead.lead-modal
+    .lead-modal__close
+      span Закрыть
+    .lead-modal__wrap
+      .lead-modal__title
+        span Отправить заявку
+      form.lead-modal__form
+        fieldset.lead-modal__fieldset
+          legend.lead-modal__legend Ваше имя
+          input(type="text" id="name" name="name" autocomplete="off").lead-modal__input
+        fieldset.lead-modal__fieldset
+          legend.lead-modal__legend!= 'Ваш номер телефона <span>*</span>'
+          input(type="tel" id="tel" name="tel" autocomplete="off" required).lead-modal__input
+        button.lead-modal__btn.lead-modal__btn--disabled.btn(type="submit" data-success='.success-modal')
+          span Отправить
+
   .modals__success.success-modal
     .success-modal__wrap
       .success-modal__close
         span Закрыть
       .success-modal__text
         span Спасибо за заявку, в ближайшее время с вами свяжутся наши менеджеры.
+
+  .modals__feedback-thx.feedback-thx
+    .feedback-thx__wrap
+      .feedback-thx__close
+        span Закрыть
+      .feedback-thx__text
+        span Спасибо за ваше мнение!  Отзыв будет опубликован после проверки модератором.
+
   .modal__review-page.review-page
     .review-page__wrap
       .review-page__close
@@ -82,3 +106,44 @@
             по цене, автономная газификация несет экономическую выгоду. Одним из
             многочисленных преимуществ ее является автоматизированная работа
             системы отопления
+
+
+  .modals__feedback.feedback-modal
+    .feedback-modal__close
+      span Закрыть
+    .feedback-modal__wrap
+      .feedback-modal__title
+        span Оставьте Ваш отзыв
+      form.feedback-modal__form
+        .feedback-modal__inner
+          .feedback-modal__foto
+            label.feedback-modal__foto-label
+              .feedback-modal__foto-item
+              .feedback-modal__foto-uploader Загрузите фото
+              input(type="file" id="file" required).feedback-modal__foto-input
+          .feedback-modal__rating
+            .feedback-modal__rating-title Оценка
+            .feedback-modal__rating-item.rating
+              .star
+                .star__part.star__part_left
+                .star__part.star__part_right
+              .star
+                .star__part.star__part_left
+                .star__part.star__part_right
+              .star
+                .star__part.star__part_left
+                .star__part.star__part_right
+              .star
+                .star__part.star__part_left
+                .star__part.star__part_right
+              .star
+                .star__part.star__part_left
+                .star__part.star__part_right
+        fieldset.feedback-modal__fieldset
+          legend.feedback-modal__legend Ваше имя
+          input(type="text" id="name" name="name" autocomplete="off" required).feedback-modal__input
+        fieldset.feedback-modal__fieldset.feedback-modal__fieldset--textarea
+          legend.feedback-modal__legend Ваш отзыв
+          textarea(id="feedback" name="feedback" required).feedback-modal__textarea
+        button.request-modal__btn.request-modal__btn--disabled.btn(type="submit" data-success='.feedback-thx')
+          span Отправить

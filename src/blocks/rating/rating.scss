@@ -1,0 +1,38 @@
+.rating {
+  display: flex;
+  width: 144px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star {
+  position: relative;
+  width: 21px;
+  height: 21px;
+
+  &__part {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+
+    &_left {
+      left: 0;
+      background-image: url('./../img/star-left.svg');
+      background-size: cover;
+    }
+
+    &_right {
+      right: 0;
+      background-image: url('./../img/star-right.svg');
+      background-size: cover;
+    }
+    &.hovered {
+      background-color: blue;
+    }
+    &.selected {
+      background-color: blue;
+    }
+  }
+}

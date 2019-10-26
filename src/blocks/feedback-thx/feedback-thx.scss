@@ -1,0 +1,69 @@
+.feedback-thx {
+  position: fixed;
+  height:100%;
+  width:100%;
+  padding: 30px 10px;
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  background-color: $white;
+  z-index: 11;
+  display: none;
+  opacity: 0;
+
+  @media (min-width: $screen-sm) {
+    padding: 60px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__close {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 30px;
+
+    @media (min-width: $screen-sm) {
+      text-align: right;
+    }
+  }
+
+  &__close span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./../img/close.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (min-width: $screen-sm) {
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  &__text {
+    font-family: 'IBM Plex';
+    font-size: 16px;
+    font-weight: 300;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+
+    @media (min-width: $screen-sm) {
+      width: 460px;
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 460px;
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+}
