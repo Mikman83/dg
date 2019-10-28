@@ -18,14 +18,11 @@ block content
             водоснабжением в местах, где нет центрального газоснабжения.
       .equipment__inner
         form.equipment__advantages.advantages
-          input(type="radio" id="gas" name="advantage" value="gas" checked)
-          label(for="gas").advantages__btn
+          a(href="#").advantages__btn.advantages__btn--checked
             span Газгольдер
-          input(type="radio" id="diz" name="advantage" value="diz")
-          label(for="diz").advantages__btn
+          a(href="#").advantages__btn
             span Газовые котлы
-          input(type="radio" id="diztank" name="advantage" value="diztank")
-          label(for="diztank").advantages__btn
+          a(href="#").advantages__btn
             span Дизельные котлы
       .equipment__list
         +card-page

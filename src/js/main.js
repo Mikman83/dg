@@ -474,34 +474,42 @@ $(document).ready(function() {
 });
 
 //РЕЙТИНГ
-let starParts = [...document.querySelectorAll(".star__part")];
+let starParts = [...document.querySelectorAll("input[name='rating']")];
 let rating = 0;
+let realValue = 0;
+// rate.innerHTML = "Показывается: " + rating / 2 + "<br>Реально: " + realValue;
 
+// let res = document.getElementById("#rate");
 starParts.forEach(function(item, idx) {
-  item.addEventListener("mouseover",function(e) {
+  item.addEventListener("change", function(e) {
+    let selectedIndex = idx;
+    rating = selectedIndex + 1;
+    realValue = item.value;
+    // rate.innerHTML = "Показывается: " + rating / 2 + "<br>Реально: " + realValue;
 
-    let hoveredIndex = idx;
-    starParts.forEach(function(item, idx){
-      if(idx <= hoveredIndex) {
-        item.classList.add('hovered');
+    starParts.forEach(function(item, idx) {
+      if (idx <= selectedIndex) {
+        item.classList.add("selected");
       } else {
-        item.classList.remove('hovered')
+        item.classList.remove("selected");
       }
     });
-
   });
-
-  item.addEventListener("click", function(e){
-    let selectedIndex = idx;
-
-    starParts.forEach(function(item, idx){
-      if(idx <= selectedIndex) {
-        item.classList.add('selected');
-
-      } else {
-        item.classList.remove('selected')
-      }
-    })
-  })
 });
+
+// ТАЙМЕР
+$(function () {
+  const time = $('.direct-modal__seconds');
+  timerDecrement();
+
+  function timerDecrement() {
+    setTimeout(function() {
+      const newTime = time.text() - 1;
+
+      time.text(newTime);
+
+      if(newTime > 0) timerDecrement();
+    }, 1000);
+  }
+})
 

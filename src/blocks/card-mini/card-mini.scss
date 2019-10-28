@@ -2,12 +2,13 @@
 
   &__inner {
     display: block;
+    height: 100%;
     padding: 10px 15px 25px;
     border: 1px solid $grey-light;
 
     @media (min-width: $screen-lg) {
       display: flex;
-      padding: 20px;
+      padding: 29px 20px;
     }
 
     @media (min-width: $screen-xxxl) {
@@ -75,7 +76,7 @@
     font-size: 15px;
     line-height: 20px;
     font-weight: 300;
-    color: $grey-dark;
+    color: $black;
 
     @media (min-width: $screen-sm) {
       font-size: 20px;
@@ -252,6 +253,7 @@
     display: flex;
     align-items: center;
     font-size: 10px;
+    font-weight: 700;
     color: $grey-dark;
     margin-right: 5px;
 

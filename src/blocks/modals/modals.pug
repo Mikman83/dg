@@ -62,6 +62,16 @@
         button.lead-modal__btn.lead-modal__btn--disabled.btn(type="submit" data-success='.success-modal')
           span Отправить
 
+  .modals__direct.direct-modal
+    .direct-modal__wrap
+      .direct-modal__close
+        span Закрыть
+      .direct-modal__text
+        p!= 'Мы перенаправляем Вас на сайт компании <span>«name-company».</span> <br>Пожалуйста, сообщите что данное предложение Вы нашли на сайте ДизГаз.'
+        .direct-modal__timer
+          span 0 : 0
+          span.direct-modal__seconds 5
+
   .modals__success.success-modal
     .success-modal__wrap
       .success-modal__close
@@ -125,20 +135,30 @@
             .feedback-modal__rating-title Оценка
             .feedback-modal__rating-item.rating
               .star
-                .star__part.star__part_left
-                .star__part.star__part_right
+                input(type="radio" name="rating" id="star1" value="1")
+                label.star__part.star__part_left(for="star1")
+                input(type="radio" name="rating" id="star2" value="2")
+                label.star__part.star__part_right(for="star2")
               .star
-                .star__part.star__part_left
-                .star__part.star__part_right
+                input(type="radio" name="rating" id="star3" value="3")
+                label.star__part.star__part_left(for="star3")
+                input(type="radio" name="rating" id="star4" value="4")
+                label.star__part.star__part_right(for="star4")
               .star
-                .star__part.star__part_left
-                .star__part.star__part_right
+                input(type="radio" name="rating" id="star5" value="5")
+                label.star__part.star__part_left(for="star5")
+                input(type="radio" name="rating" id="star6" value="6")
+                label.star__part.star__part_right(for="star6")
               .star
-                .star__part.star__part_left
-                .star__part.star__part_right
+                input(type="radio" name="rating" id="star7" value="7")
+                label.star__part.star__part_left(for="star7")
+                input(type="radio" name="rating" id="star8" value="8")
+                label.star__part.star__part_right(for="star8")
               .star
-                .star__part.star__part_left
-                .star__part.star__part_right
+                input(type="radio" name="rating" id="star9" value="9")
+                label.star__part.star__part_left(for="star9")
+                input(type="radio" name="rating" id="star10" value="10")
+                label.star__part.star__part_right(for="star10")
         fieldset.feedback-modal__fieldset
           legend.feedback-modal__legend Ваше имя
           input(type="text" id="name" name="name" autocomplete="off" required).feedback-modal__input

@@ -47,6 +47,26 @@
     @media (min-width: $screen-sm) {
       margin-bottom: 40px;
     }
+
+    &:nth-child(2n) {
+
+      .article__inner {
+
+        @media (min-width: $screen-sm) {
+          order: -1;
+          padding-left: 0;
+          padding-right: 30px;
+        }
+
+        @media (min-width: $screen-lg) {
+          padding-right: 45px;
+        }
+
+        @media (min-width: $screen-xl) {
+          padding-right: 60px;
+        }
+      }
+    }
   }
 
   &__btn {
