@@ -4,11 +4,20 @@
   width: fit-content;
   height: 36px;
   border-radius: 25px;
-  border: 1px solid $grey-light;
+  border: 1px solid $grey-lighter;
   background-color: $white;
 
   @media (min-width: $screen-sm) {
     height: 46px;
+  }
+
+  & input {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
   }
 
   &__btn {

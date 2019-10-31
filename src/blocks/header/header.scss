@@ -16,10 +16,18 @@
   &__container {
     display: flex;
     position: relative;
+
+    @media (min-width: $screen-lg) {
+      padding-top: 17px;
+      padding-bottom: 24px;
+    }
   }
 
   &__logo {
     display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
     width: 74px;
 
     @media (min-width: $screen-sm) {
@@ -87,7 +95,7 @@
     position: absolute;
     flex-direction: column;
     width: 100%;
-    height: calc(100vh - 47px);
+    height: calc(100vh - 46px);
     background-color: $white;
     top: 46px;
     left: 0;
@@ -109,6 +117,7 @@
       flex-grow: 1;
       justify-content: space-between;
       margin-left: 40px;
+      margin-top: 13px;
     }
 
     &--active {
@@ -131,11 +140,11 @@
       position: absolute;
       flex-direction: column;
       width: 100%;
-      height: calc(100vh - 47px);
+      height: calc(100vh - 46px);
       margin: 0;
       margin-top: 5px;
       background-color: rgba(255, 255, 255, 0.9);
-      top: 80px;
+      top: 60px;
       right: 0;
       z-index: 2;
     }
@@ -146,6 +155,7 @@
       width: auto;
       height: auto;
       margin-left: 0;
+      margin-top: 0;
     }
   }
 
@@ -171,18 +181,29 @@
     }
   }
 
-  &__nav,
-  &__location {
+  &__nav {
     margin: auto;
 
     @media (min-width: $screen-sm) {
       margin-right: 0;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin: 0;
     }
   }
 
   &__item,
   &__location {
     text-align: center;
+  }
+
+  &__location {
+    margin-bottom: 66px;
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 0;
+    }
   }
 
   &__phone {
@@ -200,6 +221,8 @@
     @media (min-width: $screen-lg) {
       pointer-events: none;
       margin-right: 0;
+      margin-top: 13px;
+      align-self: flex-start;
     }
   }
 }

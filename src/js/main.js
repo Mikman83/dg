@@ -20,6 +20,19 @@ $(document).ready(function() {
     .click(function(e) {
       e.preventDefault;
 
+      $('body').toggleClass('no-scroll');
+
+      if($('body').hasClass('no-scroll')) {
+        $("body").css({
+          'height' : '100%',
+          'width' : '100%',
+          'position' : 'fixed',
+          'overflow' : 'hidden'
+        });
+      }else{
+        $("body").removeAttr("style");
+      }
+
       $('.header__burger')
         .toggleClass('header__burger--active');
 

@@ -128,8 +128,8 @@
         .feedback-modal__inner
           .feedback-modal__foto
             label.feedback-modal__foto-label
-              .feedback-modal__foto-item
-              .feedback-modal__foto-uploader Загрузите фото
+              span.feedback-modal__foto-item
+              span.feedback-modal__foto-uploader Загрузите фото
               input(type="file" id="file" required).feedback-modal__foto-input
           .feedback-modal__rating
             .feedback-modal__rating-title Оценка
@@ -139,26 +139,31 @@
                 label.star__part.star__part_left(for="star1")
                 input(type="radio" name="rating" id="star2" value="2")
                 label.star__part.star__part_right(for="star2")
+                img(src='./../img/star.svg').star__frame
               .star
                 input(type="radio" name="rating" id="star3" value="3")
                 label.star__part.star__part_left(for="star3")
                 input(type="radio" name="rating" id="star4" value="4")
                 label.star__part.star__part_right(for="star4")
+                img(src='./../img/star.svg').star__frame
               .star
                 input(type="radio" name="rating" id="star5" value="5")
                 label.star__part.star__part_left(for="star5")
                 input(type="radio" name="rating" id="star6" value="6")
                 label.star__part.star__part_right(for="star6")
+                img(src='./../img/star.svg').star__frame
               .star
                 input(type="radio" name="rating" id="star7" value="7")
                 label.star__part.star__part_left(for="star7")
                 input(type="radio" name="rating" id="star8" value="8")
                 label.star__part.star__part_right(for="star8")
+                img(src='./../img/star.svg').star__frame
               .star
                 input(type="radio" name="rating" id="star9" value="9")
                 label.star__part.star__part_left(for="star9")
                 input(type="radio" name="rating" id="star10" value="10")
                 label.star__part.star__part_right(for="star10")
+                img(src='./../img/star.svg').star__frame
         fieldset.feedback-modal__fieldset
           legend.feedback-modal__legend Ваше имя
           input(type="text" id="name" name="name" autocomplete="off" required).feedback-modal__input

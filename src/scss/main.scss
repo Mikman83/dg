@@ -36,7 +36,7 @@ a {
   text-decoration: none;
   transition: color 150ms ease-in-out;
 }
-//
+
 //button,
 //[role='button'],
 //input,
@@ -53,14 +53,13 @@ a {
 //  outline: none;
 //}
 
-img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: 100%;
-    height: auto;
-}
-
+//img {
+//  display: block;
+//  max-width: 100%;
+//  max-height: 100%;
+//  width: 100%;
+//  height: auto;
+//}
 
 .main {
   flex-grow: 1;
@@ -129,10 +128,6 @@ img {
   margin: -1px;
 }
 
-.noScroll {
-    overflow: hidden;
-}
-
 .pageTop {
     margin-top: 170px;
 
@@ -166,6 +161,3 @@ img {
     color: $success;
   }
 }
-
-
-

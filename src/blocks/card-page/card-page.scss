@@ -14,6 +14,7 @@
     @media (min-width: $screen-lg) {
       position: relative;
       padding-left: 35%;
+      padding-right: 71px;
     }
   }
 
@@ -21,7 +22,7 @@
     padding: 10px 10px 25px;
 
     @media (min-width: $screen-sm) {
-      width: 55%;
+      width: 48%;
       padding: 0;
     }
 
@@ -33,6 +34,10 @@
 
   &__title {
     margin-bottom: 10px;
+
+    @media (min-width: $screen-sm) {
+      margin-bottom: 20px;
+    }
   }
 
   &__title h2 {
@@ -59,7 +64,7 @@
     margin-bottom: 15px;
 
     @media (min-width: $screen-sm) {
-      width: 45%;
+      width: 52%;
       padding-right: 40px;
       margin-bottom: 30px;
       order: -1;
@@ -235,6 +240,7 @@
     display: flex;
     font-family: 'IBM Plex';
     font-size: 15px;
+    font-weight: 300;
     line-height: 33px;
     margin-right: 20px;
     align-items: center;
@@ -261,5 +267,13 @@
     font-family: 'IBM Plex';
     font-size: 25px;
     color: $blue;
+  }
+
+  &__pic {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
   }
 }

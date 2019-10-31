@@ -1,12 +1,28 @@
 .provider {
 
+  &__wrap {
+
+    @media (min-width: $screen-sm) {
+      position: relative;
+      padding-top: 0;
+    }
+  }
+
+  &__breadcrumbs {
+
+    @media (min-width: $screen-sm) {
+      position: absolute;
+      top: 15px;
+    }
+  }
+
   &__header {
     margin-bottom: 20px;
 
     @media (min-width: $screen-sm) {
       display: flex;
       flex-wrap: wrap;
-      padding-top: 20px;
+      //padding-top: 20px;
     }
   }
 
@@ -14,6 +30,7 @@
 
     @media (min-width: $screen-sm) {
       width: 50%;
+      padding-top: 64px;
       border-right: 1px solid $grey-light;
       border-bottom: 1px solid $grey-light;
     }
@@ -41,11 +58,14 @@
       flex-direction: column;
       padding-left: 30px;
       width: 50%;
+      padding-top: 64px;
     }
 
     @media (min-width: $screen-lg) {
       width: 27%;
+      padding-top: 0;
       border-right: 1px solid $grey-light;
+      border-bottom: none;
     }
   }
 
@@ -84,10 +104,14 @@
     @media (min-width: $screen-sm) {
       width: 40%;
       border-right: 1px solid $grey-light;
+      padding-top: 78px;
+      padding-bottom: 57px;
     }
 
     @media (min-width: $screen-lg) {
       width: 22%;
+      padding: 64px 0 0;
+      border-bottom: none;
     }
   }
 
@@ -148,6 +172,7 @@
 
     @media (min-width: $screen-lg) {
       width: 30%;
+      border-bottom: none;
     }
   }
 
@@ -155,6 +180,14 @@
   &__dis-cell {
     width: 50%;
     padding: 20px 30px;
+
+    @media (min-width: $screen-sm) {
+      padding: 78px 30px 57px;
+    }
+
+    @media (min-width: $screen-lg) {
+      padding-top: 64px;
+    }
   }
 
   &__gas .card-mini__advantages-gaz,
@@ -172,7 +205,10 @@
   }
 
   &__dis-cell {
-    border-left: 1px solid $grey-light;
+
+    @media (min-width: $screen-sm) {
+      border-left: 1px solid $grey-light;
+    }
   }
 
   &__about {
@@ -199,7 +235,7 @@
     @media (min-width: $screen-lg) {
       display: flex;
       flex-direction: column;
-      width: 30%;
+      width: 25%;
       padding-right: 20px;
     }
 
@@ -230,7 +266,7 @@
     }
 
     @media (min-width: $screen-lg) {
-      width: 25%;
+      width: 23%;
       margin: 0;
     }
   }
@@ -276,6 +312,11 @@
       border-bottom: 1px solid $grey-light;
       margin-bottom: 35px;
     }
+
+    @media (min-width: $screen-lg) {
+      border-bottom: none;
+      margin-bottom: 105px;
+    }
   }
 
   &__adress-list {
@@ -287,7 +328,7 @@
     }
 
     @media (min-width: $screen-lg) {
-      width: 30%;
+      width: 25%;
     }
   }
 
@@ -342,7 +383,7 @@
     }
 
     @media (min-width: $screen-lg) {
-      width: 70%;
+      width: 75%;
     }
   }
 
@@ -375,7 +416,11 @@
       }
 
       @media (min-width: $screen-lg) {
-        top: -205px;
+        top: -155px;
+      }
+
+      @media (min-width: $screen-xl) {
+        top: -135px;
       }
     }
 
@@ -409,6 +454,11 @@
     @media (min-width: $screen-sm) {
       display: flex;
       min-height: 170px;
+      margin-bottom: 45px;
+    }
+
+    @media (min-width: $screen-lg) {
+      min-height: 100px;
     }
   }
 
@@ -439,9 +489,12 @@
 
   &__feedback-action {
     display: flex;
-    justify-content: flex-end;
-    width: 50%;
     padding-top: 15px;
+
+    @media (min-width: $screen-sm) {
+      justify-content: flex-end;
+      width: 50%;
+    }
 
     @media (min-width: $screen-lg) {
       width: 35%;
@@ -474,7 +527,11 @@
     }
 
     @media (min-width: $screen-lg) {
-      top: -205px;
+      top: -155px;
+    }
+
+    @media (min-width: $screen-xl) {
+      top: -135px;
     }
   }
 
@@ -484,5 +541,13 @@
 
   &__slider-counter .counter span {
     font-weight: 500;
+  }
+
+  &__img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
   }
 }

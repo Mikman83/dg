@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 311 132" style="enable-background:new 0 0 311 132;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 311 132" style="" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#CCE1F5;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#CCE1F5;stroke-width:2;stroke-miterlimit:10;}
@@ -38,86 +37,86 @@
 	.st32{fill:none;stroke:#CCE1F5;stroke-miterlimit:10;stroke-dasharray:4,4;}
 </style>
 <g>
-	<path class="st0" d="M233,107.2c0-12.1,9.8-22,21.9-22c12.1,0,21.9,9.8,21.9,22l2.5,12.3"/>
-	<path class="st0" d="M186.7,108.4c0-12.2,9.9-22.2,22.2-22.2c12.2,0,22.2,9.9,22.2,22.2"/>
-	<path class="st0" d="M63.2,85.7c12.8,0,23.2,10.4,23.2,23.2"/>
+	<path class="st0 ZoUeHgkw_0" d="M233,107.2c0-12.1,9.8-22,21.9-22c12.1,0,21.9,9.8,21.9,22l2.5,12.3"></path>
+	<path class="st0 ZoUeHgkw_1" d="M186.7,108.4c0-12.2,9.9-22.2,22.2-22.2c12.2,0,22.2,9.9,22.2,22.2"></path>
+	<path class="st0 ZoUeHgkw_2" d="M63.2,85.7c12.8,0,23.2,10.4,23.2,23.2"></path>
 	<g>
 		<g>
-			<circle class="st1" cx="253.9" cy="111.9" r="18.6"/>
-			<circle class="st0" cx="253.9" cy="111.9" r="11.1"/>
-			<circle class="st0" cx="253.9" cy="111.9" r="4.5"/>
+			<path class="st1 ZoUeHgkw_3" d="M235.3,111.9A18.6,18.6 0,1,1 272.5,111.9A18.6,18.6 0,1,1 235.3,111.9"></path>
+			<path class="st0 ZoUeHgkw_4" d="M242.8,111.9A11.1,11.1 0,1,1 265,111.9A11.1,11.1 0,1,1 242.8,111.9"></path>
+			<path class="st0 ZoUeHgkw_5" d="M249.4,111.9A4.5,4.5 0,1,1 258.4,111.9A4.5,4.5 0,1,1 249.4,111.9"></path>
 		</g>
-		<circle class="st0" cx="254" cy="104.1" r="1"/>
-		<circle class="st0" cx="259.8" cy="107" r="1"/>
-		<circle class="st0" cx="261.5" cy="113.3" r="1"/>
-		<circle class="st0" cx="257.6" cy="118.7" r="1"/>
-		<circle class="st0" cx="250.6" cy="119" r="1"/>
-		<circle class="st0" cx="246.2" cy="113.3" r="1"/>
-		<circle class="st0" cx="247.8" cy="107" r="1"/>
+		<path class="st0 ZoUeHgkw_6" d="M253,104.1A1,1 0,1,1 255,104.1A1,1 0,1,1 253,104.1"></path>
+		<path class="st0 ZoUeHgkw_7" d="M258.8,107A1,1 0,1,1 260.8,107A1,1 0,1,1 258.8,107"></path>
+		<path class="st0 ZoUeHgkw_8" d="M260.5,113.3A1,1 0,1,1 262.5,113.3A1,1 0,1,1 260.5,113.3"></path>
+		<path class="st0 ZoUeHgkw_9" d="M256.6,118.7A1,1 0,1,1 258.6,118.7A1,1 0,1,1 256.6,118.7"></path>
+		<path class="st0 ZoUeHgkw_10" d="M249.6,119A1,1 0,1,1 251.6,119A1,1 0,1,1 249.6,119"></path>
+		<path class="st0 ZoUeHgkw_11" d="M245.2,113.3A1,1 0,1,1 247.2,113.3A1,1 0,1,1 245.2,113.3"></path>
+		<path class="st0 ZoUeHgkw_12" d="M246.8,107A1,1 0,1,1 248.8,107A1,1 0,1,1 246.8,107"></path>
 	</g>
 	<g>
 		<g>
-			<circle class="st1" cx="208.4" cy="111.9" r="18.6"/>
-			<circle class="st0" cx="208.4" cy="111.9" r="11.1"/>
-			<circle class="st0" cx="208.4" cy="111.9" r="4.5"/>
+			<path class="st1 ZoUeHgkw_13" d="M189.8,111.9A18.6,18.6 0,1,1 227,111.9A18.6,18.6 0,1,1 189.8,111.9"></path>
+			<path class="st0 ZoUeHgkw_14" d="M197.3,111.9A11.1,11.1 0,1,1 219.5,111.9A11.1,11.1 0,1,1 197.3,111.9"></path>
+			<path class="st0 ZoUeHgkw_15" d="M203.9,111.9A4.5,4.5 0,1,1 212.9,111.9A4.5,4.5 0,1,1 203.9,111.9"></path>
 		</g>
-		<circle class="st0" cx="208.5" cy="104.1" r="1"/>
-		<circle class="st0" cx="214.3" cy="107" r="1"/>
-		<circle class="st0" cx="216" cy="113.3" r="1"/>
-		<circle class="st0" cx="212.1" cy="118.7" r="1"/>
-		<circle class="st0" cx="205.1" cy="119" r="1"/>
-		<circle class="st0" cx="200.8" cy="113.3" r="1"/>
-		<circle class="st0" cx="202.4" cy="107" r="1"/>
+		<path class="st0 ZoUeHgkw_16" d="M207.5,104.1A1,1 0,1,1 209.5,104.1A1,1 0,1,1 207.5,104.1"></path>
+		<path class="st0 ZoUeHgkw_17" d="M213.3,107A1,1 0,1,1 215.3,107A1,1 0,1,1 213.3,107"></path>
+		<path class="st0 ZoUeHgkw_18" d="M215,113.3A1,1 0,1,1 217,113.3A1,1 0,1,1 215,113.3"></path>
+		<path class="st0 ZoUeHgkw_19" d="M211.1,118.7A1,1 0,1,1 213.1,118.7A1,1 0,1,1 211.1,118.7"></path>
+		<path class="st0 ZoUeHgkw_20" d="M204.1,119A1,1 0,1,1 206.1,119A1,1 0,1,1 204.1,119"></path>
+		<path class="st0 ZoUeHgkw_21" d="M199.8,113.3A1,1 0,1,1 201.8,113.3A1,1 0,1,1 199.8,113.3"></path>
+		<path class="st0 ZoUeHgkw_22" d="M201.4,107A1,1 0,1,1 203.4,107A1,1 0,1,1 201.4,107"></path>
 	</g>
 	<g>
 		<g>
-			<circle class="st1" cx="63.2" cy="111.9" r="18.6"/>
-			<circle class="st0" cx="63.2" cy="111.9" r="11.1"/>
-			<circle class="st0" cx="63.2" cy="111.9" r="4.5"/>
+			<path class="st1 ZoUeHgkw_23" d="M44.6,111.9A18.6,18.6 0,1,1 81.80000000000001,111.9A18.6,18.6 0,1,1 44.6,111.9"></path>
+			<path class="st0 ZoUeHgkw_24" d="M52.1,111.9A11.1,11.1 0,1,1 74.3,111.9A11.1,11.1 0,1,1 52.1,111.9"></path>
+			<path class="st0 ZoUeHgkw_25" d="M58.7,111.9A4.5,4.5 0,1,1 67.7,111.9A4.5,4.5 0,1,1 58.7,111.9"></path>
 		</g>
-		<circle class="st0" cx="63.3" cy="104.1" r="1"/>
-		<circle class="st0" cx="69" cy="107" r="1"/>
-		<circle class="st0" cx="70.8" cy="113.3" r="1"/>
-		<circle class="st0" cx="66.9" cy="118.7" r="1"/>
-		<circle class="st0" cx="59.9" cy="119" r="1"/>
-		<circle class="st0" cx="55.5" cy="113.3" r="1"/>
-		<circle class="st0" cx="57.1" cy="107" r="1"/>
+		<path class="st0 ZoUeHgkw_26" d="M62.3,104.1A1,1 0,1,1 64.3,104.1A1,1 0,1,1 62.3,104.1"></path>
+		<path class="st0 ZoUeHgkw_27" d="M68,107A1,1 0,1,1 70,107A1,1 0,1,1 68,107"></path>
+		<path class="st0 ZoUeHgkw_28" d="M69.8,113.3A1,1 0,1,1 71.8,113.3A1,1 0,1,1 69.8,113.3"></path>
+		<path class="st0 ZoUeHgkw_29" d="M65.9,118.7A1,1 0,1,1 67.9,118.7A1,1 0,1,1 65.9,118.7"></path>
+		<path class="st0 ZoUeHgkw_30" d="M58.9,119A1,1 0,1,1 60.9,119A1,1 0,1,1 58.9,119"></path>
+		<path class="st0 ZoUeHgkw_31" d="M54.5,113.3A1,1 0,1,1 56.5,113.3A1,1 0,1,1 54.5,113.3"></path>
+		<path class="st0 ZoUeHgkw_32" d="M56.1,107A1,1 0,1,1 58.1,107A1,1 0,1,1 56.1,107"></path>
 	</g>
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_1_" d="M167.5,108.4h-29.2c-3.3,0-6,2.7-6,6s2.7,6,6,6h29.2c3.3,0,6-2.7,6-6S170.9,108.4,167.5,108.4z"/>
+				<path id="SVGID_1_" d="M167.5,108.4h-29.2c-3.3,0-6,2.7-6,6s2.7,6,6,6h29.2c3.3,0,6-2.7,6-6S170.9,108.4,167.5,108.4z" class="ZoUeHgkw_33"></path>
 			</defs>
 			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_1_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st2">
 				<g>
 					<defs>
-						<rect id="SVGID_3_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_3_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_34"></path>
 					</defs>
 					<clipPath id="SVGID_4_">
-						<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_3_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st3">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_5_" x="112.1" y="88.3" width="81.6" height="52.4"/>
+									<path id="SVGID_5_" width="81.6" height="52.4" d="M112.1 88.3 L193.7 88.3 L193.7 140.7 L112.1 140.7 Z" class="ZoUeHgkw_35"></path>
 								</defs>
 								<clipPath id="SVGID_6_">
-									<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_5_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st4">
 									<g>
 										<defs>
-											<rect id="SVGID_7_" x="132.3" y="108.4" width="41.3" height="12.1"/>
+											<path id="SVGID_7_" width="41.3" height="12.1" d="M132.3 108.4 L173.60000000000002 108.4 L173.60000000000002 120.5 L132.3 120.5 Z" class="ZoUeHgkw_36"></path>
 										</defs>
 										<clipPath id="SVGID_8_">
-											<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_7_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st5" d="M167.5,108.4h-29.2c-3.3,0-6,2.7-6,6s2.7,6,6,6h29.2c3.3,0,6-2.7,6-6
-											C173.6,111.1,170.9,108.4,167.5,108.4z"/>
+										<path class="st5 ZoUeHgkw_37" d="M167.5,108.4h-29.2c-3.3,0-6,2.7-6,6s2.7,6,6,6h29.2c3.3,0,6-2.7,6-6
+											C173.6,111.1,170.9,108.4,167.5,108.4z"></path>
 									</g>
 								</g>
 							</g>
@@ -127,61 +126,60 @@
 			</g>
 		</g>
 	</g>
-	<path class="st1" d="M138.9,89.3c-5.9,0-13.5,0-20.2,0 M197.2,89.3c-6.5,0-17.7,0-31.2,0 M242.4,89.3c-6.3,0-14.2,0-22.1,0
-		 M119,4.6h129.3c17.2,0,31.1,19,31.1,42.3c0,17.6-7.9,32.6-19.1,39"/>
-	<path class="st1" d="M119.2,89.3L119.2,89.3C101.9,89.3,88,70.3,88,47s14-42.3,31.2-42.3"/>
-	<polygon class="st0" points="304.6,58 304.6,89.3 275.4,89.3 275.4,81.7 282.4,58 	"/>
-	<polyline class="st0" points="296.9,89.4 296.9,92.9 300.6,92.9 300.6,97.2 299.3,98.5 299.3,102.5 295.7,102.5 295.7,106.4 
-		297.6,106.4 297.6,110.4 294.1,110.4 294.1,102.5 276.4,102.5 	"/>
-	<line class="st0" x1="276.1" y1="89.3" x2="267.5" y2="89.3"/>
-	<path class="st0" d="M182.6,107.4c-7-3.4-11.5-7.4-13.4-12.1c-2.3,2.3-4.6,4.3-6.7,6L182.6,107.4z"/>
-	<path class="st0" d="M247.1,86.8c0-2.2,0-5.5,0-10c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"/>
-	<path class="st0" d="M190.7,89.3V76.8c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"/>
-	<path class="st0" d="M136.3,89.3V76.8c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"/>
-	<rect x="196.8" y="0.6" class="st0" width="7.1" height="4"/>
-	<rect x="215.9" y="2.6" class="st0" width="7.1" height="2"/>
-	<rect x="185.7" y="2.6" class="st0" width="7.1" height="2"/>
-	<line class="st6" x1="244.3" y1="77.3" x2="244.3" y2="87.9"/>
-	<line class="st6" x1="241.1" y1="77.3" x2="241.1" y2="89.3"/>
-	<line class="st6" x1="187.7" y1="77.3" x2="187.7" y2="89.3"/>
-	<line class="st6" x1="133.3" y1="77.3" x2="133.3" y2="89.3"/>
-	<line class="st6" x1="184.4" y1="77.3" x2="184.4" y2="89.3"/>
-	<line class="st6" x1="130.1" y1="77.3" x2="130.1" y2="89.3"/>
+	<path class="st1 ZoUeHgkw_38" d="M138.9,89.3c-5.9,0-13.5,0-20.2,0 M197.2,89.3c-6.5,0-17.7,0-31.2,0 M242.4,89.3c-6.3,0-14.2,0-22.1,0
+		 M119,4.6h129.3c17.2,0,31.1,19,31.1,42.3c0,17.6-7.9,32.6-19.1,39"></path>
+	<path class="st1 ZoUeHgkw_39" d="M119.2,89.3L119.2,89.3C101.9,89.3,88,70.3,88,47s14-42.3,31.2-42.3"></path>
+	<path class="st0 ZoUeHgkw_40" d="M304.6,58L304.6,89.3L275.4,89.3L275.4,81.7L282.4,58Z"></path>
+	<path class="st0 ZoUeHgkw_41" d="M296.9,89.4L296.9,92.9L300.6,92.9L300.6,97.2L299.3,98.5L299.3,102.5L295.7,102.5L295.7,106.4L
+		297.6,106.4L297.6,110.4L294.1,110.4L294.1,102.5L276.4,102.5"></path>
+	<path class="st0 ZoUeHgkw_42" d="M276.1,89.3L267.5,89.3"></path>
+	<path class="st0 ZoUeHgkw_43" d="M182.6,107.4c-7-3.4-11.5-7.4-13.4-12.1c-2.3,2.3-4.6,4.3-6.7,6L182.6,107.4z"></path>
+	<path class="st0 ZoUeHgkw_44" d="M247.1,86.8c0-2.2,0-5.5,0-10c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"></path>
+	<path class="st0 ZoUeHgkw_45" d="M190.7,89.3V76.8c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"></path>
+	<path class="st0 ZoUeHgkw_46" d="M136.3,89.3V76.8c0-1.5-1.1-2.7-2.5-2.7h-4.1c-1.4,0-2.5,1.2-2.5,2.7v12.4"></path>
+	<path class="st0 ZoUeHgkw_47" width="7.1" height="4" d="M196.8 0.6 L203.9 0.6 L203.9 4.6 L196.8 4.6 Z"></path>
+	<path class="st0 ZoUeHgkw_48" width="7.1" height="2" d="M215.9 2.6 L223 2.6 L223 4.6 L215.9 4.6 Z"></path>
+	<path class="st0 ZoUeHgkw_49" width="7.1" height="2" d="M185.7 2.6 L192.79999999999998 2.6 L192.79999999999998 4.6 L185.7 4.6 Z"></path>
+	<path class="st6 ZoUeHgkw_50" d="M244.3,77.3L244.3,87.9"></path>
+	<path class="st6 ZoUeHgkw_51" d="M241.1,77.3L241.1,89.3"></path>
+	<path class="st6 ZoUeHgkw_52" d="M187.7,77.3L187.7,89.3"></path>
+	<path class="st6 ZoUeHgkw_53" d="M133.3,77.3L133.3,89.3"></path>
+	<path class="st6 ZoUeHgkw_54" d="M184.4,77.3L184.4,89.3"></path>
+	<path class="st6 ZoUeHgkw_55" d="M130.1,77.3L130.1,89.3"></path>
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_9_" d="M162,85.2h-19.1c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5H162c2.5,0,4.5-2,4.5-4.5S164.5,85.2,162,85.2z"/>
+				<path id="SVGID_9_" d="M162,85.2h-19.1c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5H162c2.5,0,4.5-2,4.5-4.5S164.5,85.2,162,85.2z" class="ZoUeHgkw_56"></path>
 			</defs>
 			<clipPath id="SVGID_10_">
-				<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_9_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st7">
 				<g>
 					<defs>
-						<rect id="SVGID_11_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_11_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_57"></path>
 					</defs>
 					<clipPath id="SVGID_12_">
-						<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_11_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st8">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_13_" x="128.2" y="75.2" width="48.4" height="29.2"/>
+									<path id="SVGID_13_" width="48.4" height="29.2" d="M128.2 75.2 L176.6 75.2 L176.6 104.4 L128.2 104.4 Z" class="ZoUeHgkw_58"></path>
 								</defs>
 								<clipPath id="SVGID_14_">
-									<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_13_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st9">
 									<g>
 										<defs>
-											<rect id="SVGID_15_" x="138.3" y="85.2" width="28.2" height="9.1"/>
+											<path id="SVGID_15_" width="28.2" height="9.1" d="M138.3 85.2 L166.5 85.2 L166.5 94.3 L138.3 94.3 Z" class="ZoUeHgkw_59"></path>
 										</defs>
 										<clipPath id="SVGID_16_">
-											<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_15_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st10" d="M162,85.2h-19.1c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5H162c2.5,0,4.5-2,4.5-4.5S164.5,85.2,162,85.2z"
-											/>
+										<path class="st10 ZoUeHgkw_60" d="M162,85.2h-19.1c-2.5,0-4.5,2-4.5,4.5s2,4.5,4.5,4.5H162c2.5,0,4.5-2,4.5-4.5S164.5,85.2,162,85.2z"></path>
 									</g>
 								</g>
 							</g>
@@ -191,86 +189,84 @@
 			</g>
 		</g>
 	</g>
-	<polyline class="st0" points="164.1,93.4 158.1,102.4 146.8,102.4 140.2,93.4 	"/>
-	<line class="st0" x1="158" y1="102.4" x2="158" y2="108.4"/>
-	<line class="st0" x1="146.9" y1="102.4" x2="146.9" y2="108.4"/>
-	<line class="st6" x1="158.1" y1="103.9" x2="170.4" y2="103.9"/>
-	<line class="st6" x1="109.1" y1="103.9" x2="146.9" y2="103.9"/>
-	<polyline class="st6" points="101.9,86.9 106.1,89.3 120.5,89.3 	"/>
-	<line class="st11" x1="109.3" y1="116" x2="133" y2="116"/>
-	<line class="st6" x1="176.6" y1="103.9" x2="186.8" y2="103.9"/>
-	<polyline class="st0" points="144.4,99.4 132.3,99.4 132.3,93.3 140.6,93.3 	"/>
-	<line class="st0" x1="191.4" y1="94.8" x2="163.3" y2="94.8"/>
-	<polyline class="st0" points="132.3,95.3 97.5,95.3 84.5,98.5 	"/>
-	<line class="st6" x1="119.7" y1="116" x2="119.7" y2="104.4"/>
-	<line class="st6" x1="114.6" y1="116" x2="114.6" y2="104.4"/>
-	<path class="st0" d="M107.6,97.3h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,97.3,107.6,97.3z"
-		/>
-	<path class="st0" d="M107.6,105.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,105.4,107.6,105.4
-		z"/>
-	<path class="st0" d="M107.6,112.5h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,112.5,107.6,112.5
-		z"/>
-	<path class="st0" d="M107.6,101.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5
-		C109.1,102,108.4,101.4,107.6,101.4z"/>
-	<path class="st0" d="M107.6,108.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,108.4,107.6,108.4
-		z"/>
-	<path class="st0" d="M107.6,115.5h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,115.5,107.6,115.5
-		z"/>
+	<path class="st0 ZoUeHgkw_61" d="M164.1,93.4L158.1,102.4L146.8,102.4L140.2,93.4"></path>
+	<path class="st0 ZoUeHgkw_62" d="M158,102.4L158,108.4"></path>
+	<path class="st0 ZoUeHgkw_63" d="M146.9,102.4L146.9,108.4"></path>
+	<path class="st6 ZoUeHgkw_64" d="M158.1,103.9L170.4,103.9"></path>
+	<path class="st6 ZoUeHgkw_65" d="M109.1,103.9L146.9,103.9"></path>
+	<path class="st6 ZoUeHgkw_66" d="M101.9,86.9L106.1,89.3L120.5,89.3"></path>
+	<path class="st11 ZoUeHgkw_67" d="M109.3,116L133,116"></path>
+	<path class="st6 ZoUeHgkw_68" d="M176.6,103.9L186.8,103.9"></path>
+	<path class="st0 ZoUeHgkw_69" d="M144.4,99.4L132.3,99.4L132.3,93.3L140.6,93.3"></path>
+	<path class="st0 ZoUeHgkw_70" d="M191.4,94.8L163.3,94.8"></path>
+	<path class="st0 ZoUeHgkw_71" d="M132.3,95.3L97.5,95.3L84.5,98.5"></path>
+	<path class="st6 ZoUeHgkw_72" d="M119.7,116L119.7,104.4"></path>
+	<path class="st6 ZoUeHgkw_73" d="M114.6,116L114.6,104.4"></path>
+	<path class="st0 ZoUeHgkw_74" d="M107.6,97.3h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,97.3,107.6,97.3z"></path>
+	<path class="st0 ZoUeHgkw_75" d="M107.6,105.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,105.4,107.6,105.4
+		z"></path>
+	<path class="st0 ZoUeHgkw_76" d="M107.6,112.5h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,112.5,107.6,112.5
+		z"></path>
+	<path class="st0 ZoUeHgkw_77" d="M107.6,101.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5
+		C109.1,102,108.4,101.4,107.6,101.4z"></path>
+	<path class="st0 ZoUeHgkw_78" d="M107.6,108.4h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,108.4,107.6,108.4
+		z"></path>
+	<path class="st0 ZoUeHgkw_79" d="M107.6,115.5h-9.1c-0.8,0-1.5,0.7-1.5,1.5s0.7,1.5,1.5,1.5h9.1c0.8,0,1.5-0.7,1.5-1.5S108.4,115.5,107.6,115.5
+		z"></path>
 	<g>
-		<circle class="st0" cx="95.9" cy="86.1" r="6.2"/>
-		<circle class="st0" cx="95.9" cy="86.1" r="2.6"/>
+		<path class="st0 ZoUeHgkw_80" d="M89.7,86.1A6.2,6.2 0,1,1 102.10000000000001,86.1A6.2,6.2 0,1,1 89.7,86.1"></path>
+		<path class="st0 ZoUeHgkw_81" d="M93.30000000000001,86.1A2.6,2.6 0,1,1 98.5,86.1A2.6,2.6 0,1,1 93.30000000000001,86.1"></path>
 	</g>
-	<line class="st0" x1="97" y1="94.3" x2="96" y2="92.3"/>
-	<path class="st1" d="M93,80l-11.2-6.5l-1.3-49.1h-5.7L75.4,77c4.3,1.6,6.4,3.1,6.4,4.6s0,2.7,0,3.8c-7.5,0-14,0-19.3,0
+	<path class="st0 ZoUeHgkw_82" d="M97,94.3L96,92.3"></path>
+	<path class="st1 ZoUeHgkw_83" d="M93,80l-11.2-6.5l-1.3-49.1h-5.7L75.4,77c4.3,1.6,6.4,3.1,6.4,4.6s0,2.7,0,3.8c-7.5,0-14,0-19.3,0
 		c-7.9,0-20.2,7-21.2,21.2c-0.5,7.3-0.3,11.4-0.4,11.4l-27.7-1.7v-6.6h-0.5v-3.3h4v-7.6h-4.4l0.4-2.8l0.6-1.4h1.1v-1.3h-1.1
-		l-0.9-2.9V77l0.9-1.4l1.1-18.2l13.1-31.1l7.7-3.2c19.2-0.2,29.9-0.3,32.1-0.3c3.3,0,4.3,1,5.2,7.4c0.6,4.2,1.5,14.1,2.7,29.5"/>
-	<path class="st0" d="M75.8,77.2c-10.8,0-31.5-0.7-36.3,22.2"/>
-	<line class="st0" x1="41.5" y1="93.1" x2="14.2" y2="93.1"/>
-	<line class="st0" x1="40.7" y1="94.9" x2="14.7" y2="94.9"/>
-	<path class="st0" d="M22.5,117.5l-0.4-20.7l-0.7-1.2v-3.1l-1-16.3V56.8l9.1-23.9c20.1,0,29.6,0,31.2,0c2.4,0,3.9,1.3,4.6,6.4
-		c0.4,3.4,0.7,16,1.2,38.2"/>
-	<ellipse class="st0" cx="62.2" cy="68.1" rx="1.5" ry="1"/>
-	<line class="st6" x1="61.7" y1="68" x2="56.8" y2="68"/>
-	<line class="st0" x1="72.8" y1="30.3" x2="25.4" y2="30.3"/>
-	<path class="st0" d="M27.9,30.4c-5.1,14.6-8.4,22.9-8.9,24c-0.4,1-2,1.6-4.6,1.6"/>
-	<line class="st0" x1="25.4" y1="30.3" x2="7.3" y2="30.3"/>
-	<path class="st0" d="M15,30.8h-1.3c-1.2,0-2.1,0.9-2.1,2.1c0,0.3,0.1,0.6,0.2,0.9l0.4,0.7c0.7,1.4,2.1,2.3,3.6,2.3H17
-		c1.2,0,2.1-0.9,2.1-2.1c0-0.3-0.1-0.6-0.2-0.9l-0.4-0.7C17.9,31.7,16.5,30.8,15,30.8z"/>
+		l-0.9-2.9V77l0.9-1.4l1.1-18.2l13.1-31.1l7.7-3.2c19.2-0.2,29.9-0.3,32.1-0.3c3.3,0,4.3,1,5.2,7.4c0.6,4.2,1.5,14.1,2.7,29.5"></path>
+	<path class="st0 ZoUeHgkw_84" d="M75.8,77.2c-10.8,0-31.5-0.7-36.3,22.2"></path>
+	<path class="st0 ZoUeHgkw_85" d="M41.5,93.1L14.2,93.1"></path>
+	<path class="st0 ZoUeHgkw_86" d="M40.7,94.9L14.7,94.9"></path>
+	<path class="st0 ZoUeHgkw_87" d="M22.5,117.5l-0.4-20.7l-0.7-1.2v-3.1l-1-16.3V56.8l9.1-23.9c20.1,0,29.6,0,31.2,0c2.4,0,3.9,1.3,4.6,6.4
+		c0.4,3.4,0.7,16,1.2,38.2"></path>
+	<path class="st0 ZoUeHgkw_88" d="M60.7,68.1A1.5,1 0,1,1 63.7,68.1A1.5,1 0,1,1 60.7,68.1"></path>
+	<path class="st6 ZoUeHgkw_89" d="M61.7,68L56.8,68"></path>
+	<path class="st0 ZoUeHgkw_90" d="M72.8,30.3L25.4,30.3"></path>
+	<path class="st0 ZoUeHgkw_91" d="M27.9,30.4c-5.1,14.6-8.4,22.9-8.9,24c-0.4,1-2,1.6-4.6,1.6"></path>
+	<path class="st0 ZoUeHgkw_92" d="M25.4,30.3L7.3,30.3"></path>
+	<path class="st0 ZoUeHgkw_93" d="M15,30.8h-1.3c-1.2,0-2.1,0.9-2.1,2.1c0,0.3,0.1,0.6,0.2,0.9l0.4,0.7c0.7,1.4,2.1,2.3,3.6,2.3H17
+		c1.2,0,2.1-0.9,2.1-2.1c0-0.3-0.1-0.6-0.2-0.9l-0.4-0.7C17.9,31.7,16.5,30.8,15,30.8z"></path>
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_17_" d="M32.5,35.9c-1.7,0-3,1.4-3,3v6c0,1.7,1.4,3,3,3c1.6,0,3-1.4,3-3v-6C35.5,37.2,34.2,35.9,32.5,35.9z"/>
+				<path id="SVGID_17_" d="M32.5,35.9c-1.7,0-3,1.4-3,3v6c0,1.7,1.4,3,3,3c1.6,0,3-1.4,3-3v-6C35.5,37.2,34.2,35.9,32.5,35.9z" class="ZoUeHgkw_94"></path>
 			</defs>
 			<clipPath id="SVGID_18_">
-				<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_17_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st12">
 				<g>
 					<defs>
-						<rect id="SVGID_19_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_19_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_95"></path>
 					</defs>
 					<clipPath id="SVGID_20_">
-						<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_19_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st13">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_21_" x="19.4" y="25.8" width="26.2" height="32.2"/>
+									<path id="SVGID_21_" width="26.2" height="32.2" d="M19.4 25.8 L45.599999999999994 25.8 L45.599999999999994 58 L19.4 58 Z" class="ZoUeHgkw_96"></path>
 								</defs>
 								<clipPath id="SVGID_22_">
-									<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_21_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st14">
 									<g>
 										<defs>
-											<rect id="SVGID_23_" x="29.5" y="35.9" width="6" height="12.1"/>
+											<path id="SVGID_23_" width="6" height="12.1" d="M29.5 35.9 L35.5 35.9 L35.5 48 L29.5 48 Z" class="ZoUeHgkw_97"></path>
 										</defs>
 										<clipPath id="SVGID_24_">
-											<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_23_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st15" d="M32.5,35.9c-1.7,0-3,1.4-3,3v6c0,1.7,1.4,3,3,3c1.7,0,3-1.4,3-3v-6C35.5,37.2,34.2,35.9,32.5,35.9z"
-											/>
+										<path class="st15 ZoUeHgkw_98" d="M32.5,35.9c-1.7,0-3,1.4-3,3v6c0,1.7,1.4,3,3,3c1.7,0,3-1.4,3-3v-6C35.5,37.2,34.2,35.9,32.5,35.9z"></path>
 									</g>
 								</g>
 							</g>
@@ -283,37 +279,37 @@
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_25_" d="M32.5,49c-1.7,0-3,1.4-3,3v2c0,1.7,1.4,3,3,3c1.6,0,3-1.4,3-3v-2C35.5,50.3,34.2,49,32.5,49z"/>
+				<path id="SVGID_25_" d="M32.5,49c-1.7,0-3,1.4-3,3v2c0,1.7,1.4,3,3,3c1.6,0,3-1.4,3-3v-2C35.5,50.3,34.2,49,32.5,49z" class="ZoUeHgkw_99"></path>
 			</defs>
 			<clipPath id="SVGID_26_">
-				<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_25_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st16">
 				<g>
 					<defs>
-						<rect id="SVGID_27_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_27_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_100"></path>
 					</defs>
 					<clipPath id="SVGID_28_">
-						<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_27_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st17">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_29_" x="19.4" y="38.9" width="26.2" height="28.2"/>
+									<path id="SVGID_29_" width="26.2" height="28.2" d="M19.4 38.9 L45.599999999999994 38.9 L45.599999999999994 67.1 L19.4 67.1 Z" class="ZoUeHgkw_101"></path>
 								</defs>
 								<clipPath id="SVGID_30_">
-									<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_29_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st18">
 									<g>
 										<defs>
-											<rect id="SVGID_31_" x="29.5" y="49" width="6" height="8.1"/>
+											<path id="SVGID_31_" width="6" height="8.1" d="M29.5 49 L35.5 49 L35.5 57.1 L29.5 57.1 Z" class="ZoUeHgkw_102"></path>
 										</defs>
 										<clipPath id="SVGID_32_">
-											<use xlink:href="#SVGID_31_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_31_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st19" d="M32.5,49c-1.7,0-3,1.4-3,3v2c0,1.7,1.4,3,3,3c1.7,0,3-1.4,3-3v-2C35.5,50.3,34.2,49,32.5,49z"/>
+										<path class="st19 ZoUeHgkw_103" d="M32.5,49c-1.7,0-3,1.4-3,3v2c0,1.7,1.4,3,3,3c1.7,0,3-1.4,3-3v-2C35.5,50.3,34.2,49,32.5,49z"></path>
 									</g>
 								</g>
 							</g>
@@ -323,48 +319,48 @@
 			</g>
 		</g>
 	</g>
-	<path class="st6" d="M32.5,36.9v15.3c0,5.9-1.7,9.2-5,9.9"/>
-	<path class="st0" d="M37.5,62.1h-10c-0.6,0-1,0.5-1,1c0,0.6,0.5,1,1,1h10.1c0.6,0,1-0.5,1-1C38.5,62.5,38.1,62.1,37.5,62.1z"/>
-	<path class="st1" d="M89.9,84.7c-5.1-3-8.2-4.8-9.3-5.5c-1.7-1-5.4-4.7-5.4-12.1"/>
-	<path class="st0" d="M59.7,34.9H43.6c-1.1,0-2,0.9-2,2V52c0,1.1,0.9,2,2,2h16.1c1.1,0,2-0.9,2-2V36.9
-		C61.7,35.8,60.8,34.9,59.7,34.9z"/>
-	<path class="st0" d="M35.5,54h2.4c0.4,0,0.6-0.3,0.6-0.6V35.5c0-0.4-0.3-0.6-0.6-0.6h-6.4c-0.3,0-0.6,0.2-0.6,0.5l-0.6,2
-		 M29.7,40.2l-3.2,13c-0.1,0.3,0.1,0.7,0.5,0.8c0.1,0,0.1,0,0.2,0h2.9"/>
-	<path class="st0" d="M12.6,99.4c-1.9,2.6-1.6,5.3,0.8,8.1"/>
+	<path class="st6 ZoUeHgkw_104" d="M32.5,36.9v15.3c0,5.9-1.7,9.2-5,9.9"></path>
+	<path class="st0 ZoUeHgkw_105" d="M37.5,62.1h-10c-0.6,0-1,0.5-1,1c0,0.6,0.5,1,1,1h10.1c0.6,0,1-0.5,1-1C38.5,62.5,38.1,62.1,37.5,62.1z"></path>
+	<path class="st1 ZoUeHgkw_106" d="M89.9,84.7c-5.1-3-8.2-4.8-9.3-5.5c-1.7-1-5.4-4.7-5.4-12.1"></path>
+	<path class="st0 ZoUeHgkw_107" d="M59.7,34.9H43.6c-1.1,0-2,0.9-2,2V52c0,1.1,0.9,2,2,2h16.1c1.1,0,2-0.9,2-2V36.9
+		C61.7,35.8,60.8,34.9,59.7,34.9z"></path>
+	<path class="st0 ZoUeHgkw_108" d="M35.5,54h2.4c0.4,0,0.6-0.3,0.6-0.6V35.5c0-0.4-0.3-0.6-0.6-0.6h-6.4c-0.3,0-0.6,0.2-0.6,0.5l-0.6,2
+		 M29.7,40.2l-3.2,13c-0.1,0.3,0.1,0.7,0.5,0.8c0.1,0,0.1,0,0.2,0h2.9"></path>
+	<path class="st0 ZoUeHgkw_109" d="M12.6,99.4c-1.9,2.6-1.6,5.3,0.8,8.1"></path>
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_33_" d="M73.8,82.2h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S74.4,82.2,73.8,82.2z"/>
+				<path id="SVGID_33_" d="M73.8,82.2h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S74.4,82.2,73.8,82.2z" class="ZoUeHgkw_110"></path>
 			</defs>
 			<clipPath id="SVGID_34_">
-				<use xlink:href="#SVGID_33_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_33_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st20">
 				<g>
 					<defs>
-						<rect id="SVGID_35_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_35_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_111"></path>
 					</defs>
 					<clipPath id="SVGID_36_">
-						<use xlink:href="#SVGID_35_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_35_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st21">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_37_" x="59.7" y="72.1" width="25.2" height="22.2"/>
+									<path id="SVGID_37_" width="25.2" height="22.2" d="M59.7 72.1 L84.9 72.1 L84.9 94.3 L59.7 94.3 Z" class="ZoUeHgkw_112"></path>
 								</defs>
 								<clipPath id="SVGID_38_">
-									<use xlink:href="#SVGID_37_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_37_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st22">
 									<g>
 										<defs>
-											<rect id="SVGID_39_" x="69.8" y="82.2" width="5" height="2"/>
+											<path id="SVGID_39_" width="5" height="2" d="M69.8 82.2 L74.8 82.2 L74.8 84.2 L69.8 84.2 Z" class="ZoUeHgkw_113"></path>
 										</defs>
 										<clipPath id="SVGID_40_">
-											<use xlink:href="#SVGID_39_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_39_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st23" d="M73.8,82.2h-3c-0.6,0-1,0.5-1,1c0,0.6,0.5,1,1,1h3c0.6,0,1-0.5,1-1S74.4,82.2,73.8,82.2z"/>
+										<path class="st23 ZoUeHgkw_114" d="M73.8,82.2h-3c-0.6,0-1,0.5-1,1c0,0.6,0.5,1,1,1h3c0.6,0,1-0.5,1-1S74.4,82.2,73.8,82.2z"></path>
 									</g>
 								</g>
 							</g>
@@ -377,37 +373,37 @@
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_41_" d="M87.9,94.3h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S88.5,94.3,87.9,94.3z"/>
+				<path id="SVGID_41_" d="M87.9,94.3h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S88.5,94.3,87.9,94.3z" class="ZoUeHgkw_115"></path>
 			</defs>
 			<clipPath id="SVGID_42_">
-				<use xlink:href="#SVGID_41_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_41_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st24">
 				<g>
 					<defs>
-						<rect id="SVGID_43_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_43_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_116"></path>
 					</defs>
 					<clipPath id="SVGID_44_">
-						<use xlink:href="#SVGID_43_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_43_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st25">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_45_" x="73.8" y="84.2" width="25.2" height="22.2"/>
+									<path id="SVGID_45_" width="25.2" height="22.2" d="M73.8 84.2 L99 84.2 L99 106.4 L73.8 106.4 Z" class="ZoUeHgkw_117"></path>
 								</defs>
 								<clipPath id="SVGID_46_">
-									<use xlink:href="#SVGID_45_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_45_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st26">
 									<g>
 										<defs>
-											<rect id="SVGID_47_" x="83.9" y="94.3" width="5" height="2"/>
+											<path id="SVGID_47_" width="5" height="2" d="M83.9 94.3 L88.9 94.3 L88.9 96.3 L83.9 96.3 Z" class="ZoUeHgkw_118"></path>
 										</defs>
 										<clipPath id="SVGID_48_">
-											<use xlink:href="#SVGID_47_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_47_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st27" d="M87.9,94.3h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S88.5,94.3,87.9,94.3z"/>
+										<path class="st27 ZoUeHgkw_119" d="M87.9,94.3h-3c-0.6,0-1,0.5-1,1s0.5,1,1,1h3c0.6,0,1-0.5,1-1S88.5,94.3,87.9,94.3z"></path>
 									</g>
 								</g>
 							</g>
@@ -420,37 +416,37 @@
 	<g>
 		<g>
 			<defs>
-				<path id="SVGID_49_" d="M93.5,105.9v-3c0-0.6-0.5-1-1-1c-0.6,0-1,0.5-1,1v3c0,0.6,0.5,1,1,1S93.5,106.5,93.5,105.9z"/>
+				<path id="SVGID_49_" d="M93.5,105.9v-3c0-0.6-0.5-1-1-1c-0.6,0-1,0.5-1,1v3c0,0.6,0.5,1,1,1S93.5,106.5,93.5,105.9z" class="ZoUeHgkw_120"></path>
 			</defs>
 			<clipPath id="SVGID_50_">
-				<use xlink:href="#SVGID_49_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_49_" style="overflow:visible;"></use>
 			</clipPath>
 			<g class="st28">
 				<g>
 					<defs>
-						<rect id="SVGID_51_" x="7.3" y="-0.4" width="298.3" height="132"/>
+						<path id="SVGID_51_" width="298.3" height="132" d="M7.3 -0.4 L305.6 -0.4 L305.6 131.6 L7.3 131.6 Z" class="ZoUeHgkw_121"></path>
 					</defs>
 					<clipPath id="SVGID_52_">
-						<use xlink:href="#SVGID_51_"  style="overflow:visible;"/>
+						<use xlink:href="#SVGID_51_" style="overflow:visible;"></use>
 					</clipPath>
 					<g class="st29">
 						<g>
 							<g>
 								<defs>
-									<rect id="SVGID_53_" x="80.9" y="91.3" width="23.2" height="26.2"/>
+									<path id="SVGID_53_" width="23.2" height="26.2" d="M80.9 91.3 L104.10000000000001 91.3 L104.10000000000001 117.5 L80.9 117.5 Z" class="ZoUeHgkw_122"></path>
 								</defs>
 								<clipPath id="SVGID_54_">
-									<use xlink:href="#SVGID_53_"  style="overflow:visible;"/>
+									<use xlink:href="#SVGID_53_" style="overflow:visible;"></use>
 								</clipPath>
 								<g class="st30">
 									<g>
 										<defs>
-											<rect id="SVGID_55_" x="90.9" y="101.4" width="3" height="6"/>
+											<path id="SVGID_55_" width="3" height="6" d="M90.9 101.4 L93.9 101.4 L93.9 107.4 L90.9 107.4 Z" class="ZoUeHgkw_123"></path>
 										</defs>
 										<clipPath id="SVGID_56_">
-											<use xlink:href="#SVGID_55_"  style="overflow:visible;"/>
+											<use xlink:href="#SVGID_55_" style="overflow:visible;"></use>
 										</clipPath>
-										<path class="st31" d="M93.5,105.9v-3c0-0.6-0.5-1-1-1c-0.6,0-1,0.5-1,1v3c0,0.6,0.5,1,1,1S93.5,106.5,93.5,105.9z"/>
+										<path class="st31 ZoUeHgkw_124" d="M93.5,105.9v-3c0-0.6-0.5-1-1-1c-0.6,0-1,0.5-1,1v3c0,0.6,0.5,1,1,1S93.5,106.5,93.5,105.9z"></path>
 									</g>
 								</g>
 							</g>
@@ -460,12 +456,12 @@
 			</g>
 		</g>
 	</g>
-	<line class="st11" x1="96.3" y1="116" x2="81.9" y2="116"/>
-	<line class="st11" x1="189.5" y1="116" x2="173.7" y2="116"/>
-	<line class="st1" x1="235.1" y1="116" x2="226.5" y2="116"/>
-	<line class="st6" x1="272" y1="93" x2="298.1" y2="93"/>
-	<path class="st0" d="M280.4,89.3c0-3.6,0-5.8,0-6.6c0-1.2,0.3-2.9,1.1-5.2c0.5-1.5,2.5-8,5.9-19.4"/>
-	<line class="st32" x1="172.1" y1="111.9" x2="133.8" y2="111.9"/>
-	<line class="st32" x1="173" y1="116" x2="132.5" y2="116"/>
+	<path class="st11 ZoUeHgkw_125" d="M96.3,116L81.9,116"></path>
+	<path class="st11 ZoUeHgkw_126" d="M189.5,116L173.7,116"></path>
+	<path class="st1 ZoUeHgkw_127" d="M235.1,116L226.5,116"></path>
+	<path class="st6 ZoUeHgkw_128" d="M272,93L298.1,93"></path>
+	<path class="st0 ZoUeHgkw_129" d="M280.4,89.3c0-3.6,0-5.8,0-6.6c0-1.2,0.3-2.9,1.1-5.2c0.5-1.5,2.5-8,5.9-19.4"></path>
+	<path class="st32 ZoUeHgkw_130" d="M172.1,111.9L133.8,111.9"></path>
+	<path class="st32 ZoUeHgkw_131" d="M173,116L132.5,116"></path>
 </g>
-</svg>
+<style data-made-with="vivus-instant">.ZoUeHgkw_0{stroke-dasharray:82 84;stroke-dashoffset:83;animation:ZoUeHgkw_draw 933ms linear 0ms forwards;}.ZoUeHgkw_1{stroke-dasharray:70 72;stroke-dashoffset:71;animation:ZoUeHgkw_draw 933ms linear 3ms forwards;}.ZoUeHgkw_2{stroke-dasharray:37 39;stroke-dashoffset:38;animation:ZoUeHgkw_draw 933ms linear 7ms forwards;}.ZoUeHgkw_3{stroke-dasharray:117 119;stroke-dashoffset:118;animation:ZoUeHgkw_draw 933ms linear 10ms forwards;}.ZoUeHgkw_4{stroke-dasharray:70 72;stroke-dashoffset:71;animation:ZoUeHgkw_draw 933ms linear 14ms forwards;}.ZoUeHgkw_5{stroke-dasharray:29 31;stroke-dashoffset:30;animation:ZoUeHgkw_draw 933ms linear 17ms forwards;}.ZoUeHgkw_6{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 21ms forwards;}.ZoUeHgkw_7{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 24ms forwards;}.ZoUeHgkw_8{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 28ms forwards;}.ZoUeHgkw_9{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 32ms forwards;}.ZoUeHgkw_10{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 35ms forwards;}.ZoUeHgkw_11{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 39ms forwards;}.ZoUeHgkw_12{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 42ms forwards;}.ZoUeHgkw_13{stroke-dasharray:117 119;stroke-dashoffset:118;animation:ZoUeHgkw_draw 933ms linear 46ms forwards;}.ZoUeHgkw_14{stroke-dasharray:70 72;stroke-dashoffset:71;animation:ZoUeHgkw_draw 933ms linear 49ms forwards;}.ZoUeHgkw_15{stroke-dasharray:29 31;stroke-dashoffset:30;animation:ZoUeHgkw_draw 933ms linear 53ms forwards;}.ZoUeHgkw_16{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 56ms forwards;}.ZoUeHgkw_17{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 60ms forwards;}.ZoUeHgkw_18{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 64ms forwards;}.ZoUeHgkw_19{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 67ms forwards;}.ZoUeHgkw_20{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 71ms forwards;}.ZoUeHgkw_21{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 74ms forwards;}.ZoUeHgkw_22{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 78ms forwards;}.ZoUeHgkw_23{stroke-dasharray:117 119;stroke-dashoffset:118;animation:ZoUeHgkw_draw 933ms linear 81ms forwards;}.ZoUeHgkw_24{stroke-dasharray:70 72;stroke-dashoffset:71;animation:ZoUeHgkw_draw 933ms linear 85ms forwards;}.ZoUeHgkw_25{stroke-dasharray:29 31;stroke-dashoffset:30;animation:ZoUeHgkw_draw 933ms linear 89ms forwards;}.ZoUeHgkw_26{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 92ms forwards;}.ZoUeHgkw_27{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 96ms forwards;}.ZoUeHgkw_28{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 99ms forwards;}.ZoUeHgkw_29{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 103ms forwards;}.ZoUeHgkw_30{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 106ms forwards;}.ZoUeHgkw_31{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 110ms forwards;}.ZoUeHgkw_32{stroke-dasharray:7 9;stroke-dashoffset:8;animation:ZoUeHgkw_draw 933ms linear 113ms forwards;}.ZoUeHgkw_33{stroke-dasharray:97 99;stroke-dashoffset:98;animation:ZoUeHgkw_draw 933ms linear 117ms forwards;}.ZoUeHgkw_34{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 121ms forwards;}.ZoUeHgkw_35{stroke-dasharray:268 270;stroke-dashoffset:269;animation:ZoUeHgkw_draw 933ms linear 124ms forwards;}.ZoUeHgkw_36{stroke-dasharray:107 109;stroke-dashoffset:108;animation:ZoUeHgkw_draw 933ms linear 128ms forwards;}.ZoUeHgkw_37{stroke-dasharray:97 99;stroke-dashoffset:98;animation:ZoUeHgkw_draw 933ms linear 131ms forwards;}.ZoUeHgkw_38{stroke-dasharray:307 309;stroke-dashoffset:308;animation:ZoUeHgkw_draw 933ms linear 135ms forwards;}.ZoUeHgkw_39{stroke-dasharray:117 119;stroke-dashoffset:118;animation:ZoUeHgkw_draw 933ms linear 138ms forwards;}.ZoUeHgkw_40{stroke-dasharray:116 118;stroke-dashoffset:117;animation:ZoUeHgkw_draw 933ms linear 142ms forwards;}.ZoUeHgkw_41{stroke-dasharray:60 62;stroke-dashoffset:61;animation:ZoUeHgkw_draw 933ms linear 146ms forwards;}.ZoUeHgkw_42{stroke-dasharray:9 11;stroke-dashoffset:10;animation:ZoUeHgkw_draw 933ms linear 149ms forwards;}.ZoUeHgkw_43{stroke-dasharray:49 51;stroke-dashoffset:50;animation:ZoUeHgkw_draw 933ms linear 153ms forwards;}.ZoUeHgkw_44{stroke-dasharray:35 37;stroke-dashoffset:36;animation:ZoUeHgkw_draw 933ms linear 156ms forwards;}.ZoUeHgkw_45{stroke-dasharray:38 40;stroke-dashoffset:39;animation:ZoUeHgkw_draw 933ms linear 160ms forwards;}.ZoUeHgkw_46{stroke-dasharray:38 40;stroke-dashoffset:39;animation:ZoUeHgkw_draw 933ms linear 163ms forwards;}.ZoUeHgkw_47{stroke-dasharray:23 25;stroke-dashoffset:24;animation:ZoUeHgkw_draw 933ms linear 167ms forwards;}.ZoUeHgkw_48{stroke-dasharray:19 21;stroke-dashoffset:20;animation:ZoUeHgkw_draw 933ms linear 170ms forwards;}.ZoUeHgkw_49{stroke-dasharray:19 21;stroke-dashoffset:20;animation:ZoUeHgkw_draw 933ms linear 174ms forwards;}.ZoUeHgkw_50{stroke-dasharray:11 13;stroke-dashoffset:12;animation:ZoUeHgkw_draw 933ms linear 178ms forwards;}.ZoUeHgkw_51{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 181ms forwards;}.ZoUeHgkw_52{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 185ms forwards;}.ZoUeHgkw_53{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 188ms forwards;}.ZoUeHgkw_54{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 192ms forwards;}.ZoUeHgkw_55{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 195ms forwards;}.ZoUeHgkw_56{stroke-dasharray:67 69;stroke-dashoffset:68;animation:ZoUeHgkw_draw 933ms linear 199ms forwards;}.ZoUeHgkw_57{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 203ms forwards;}.ZoUeHgkw_58{stroke-dasharray:156 158;stroke-dashoffset:157;animation:ZoUeHgkw_draw 933ms linear 206ms forwards;}.ZoUeHgkw_59{stroke-dasharray:75 77;stroke-dashoffset:76;animation:ZoUeHgkw_draw 933ms linear 210ms forwards;}.ZoUeHgkw_60{stroke-dasharray:67 69;stroke-dashoffset:68;animation:ZoUeHgkw_draw 933ms linear 213ms forwards;}.ZoUeHgkw_61{stroke-dasharray:34 36;stroke-dashoffset:35;animation:ZoUeHgkw_draw 933ms linear 217ms forwards;}.ZoUeHgkw_62{stroke-dasharray:6 8;stroke-dashoffset:7;animation:ZoUeHgkw_draw 933ms linear 220ms forwards;}.ZoUeHgkw_63{stroke-dasharray:6 8;stroke-dashoffset:7;animation:ZoUeHgkw_draw 933ms linear 224ms forwards;}.ZoUeHgkw_64{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 227ms forwards;}.ZoUeHgkw_65{stroke-dasharray:38 40;stroke-dashoffset:39;animation:ZoUeHgkw_draw 933ms linear 231ms forwards;}.ZoUeHgkw_66{stroke-dasharray:20 22;stroke-dashoffset:21;animation:ZoUeHgkw_draw 933ms linear 235ms forwards;}.ZoUeHgkw_67{stroke-dasharray:24 26;stroke-dashoffset:25;animation:ZoUeHgkw_draw 933ms linear 238ms forwards;}.ZoUeHgkw_68{stroke-dasharray:11 13;stroke-dashoffset:12;animation:ZoUeHgkw_draw 933ms linear 242ms forwards;}.ZoUeHgkw_69{stroke-dasharray:27 29;stroke-dashoffset:28;animation:ZoUeHgkw_draw 933ms linear 245ms forwards;}.ZoUeHgkw_70{stroke-dasharray:29 31;stroke-dashoffset:30;animation:ZoUeHgkw_draw 933ms linear 249ms forwards;}.ZoUeHgkw_71{stroke-dasharray:49 51;stroke-dashoffset:50;animation:ZoUeHgkw_draw 933ms linear 252ms forwards;}.ZoUeHgkw_72{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 256ms forwards;}.ZoUeHgkw_73{stroke-dasharray:12 14;stroke-dashoffset:13;animation:ZoUeHgkw_draw 933ms linear 260ms forwards;}.ZoUeHgkw_74{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 263ms forwards;}.ZoUeHgkw_75{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 267ms forwards;}.ZoUeHgkw_76{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 270ms forwards;}.ZoUeHgkw_77{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 274ms forwards;}.ZoUeHgkw_78{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 277ms forwards;}.ZoUeHgkw_79{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 281ms forwards;}.ZoUeHgkw_80{stroke-dasharray:39 41;stroke-dashoffset:40;animation:ZoUeHgkw_draw 933ms linear 284ms forwards;}.ZoUeHgkw_81{stroke-dasharray:17 19;stroke-dashoffset:18;animation:ZoUeHgkw_draw 933ms linear 288ms forwards;}.ZoUeHgkw_82{stroke-dasharray:3 5;stroke-dashoffset:4;animation:ZoUeHgkw_draw 933ms linear 292ms forwards;}.ZoUeHgkw_83{stroke-dasharray:409 411;stroke-dashoffset:410;animation:ZoUeHgkw_draw 933ms linear 295ms forwards;}.ZoUeHgkw_84{stroke-dasharray:48 50;stroke-dashoffset:49;animation:ZoUeHgkw_draw 933ms linear 299ms forwards;}.ZoUeHgkw_85{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 302ms forwards;}.ZoUeHgkw_86{stroke-dasharray:26 28;stroke-dashoffset:27;animation:ZoUeHgkw_draw 933ms linear 306ms forwards;}.ZoUeHgkw_87{stroke-dasharray:165 167;stroke-dashoffset:166;animation:ZoUeHgkw_draw 933ms linear 309ms forwards;}.ZoUeHgkw_88{stroke-dasharray:8 10;stroke-dashoffset:9;animation:ZoUeHgkw_draw 933ms linear 313ms forwards;}.ZoUeHgkw_89{stroke-dasharray:5 7;stroke-dashoffset:6;animation:ZoUeHgkw_draw 933ms linear 317ms forwards;}.ZoUeHgkw_90{stroke-dasharray:48 50;stroke-dashoffset:49;animation:ZoUeHgkw_draw 933ms linear 320ms forwards;}.ZoUeHgkw_91{stroke-dasharray:31 33;stroke-dashoffset:32;animation:ZoUeHgkw_draw 933ms linear 324ms forwards;}.ZoUeHgkw_92{stroke-dasharray:19 21;stroke-dashoffset:20;animation:ZoUeHgkw_draw 933ms linear 327ms forwards;}.ZoUeHgkw_93{stroke-dasharray:22 24;stroke-dashoffset:23;animation:ZoUeHgkw_draw 933ms linear 331ms forwards;}.ZoUeHgkw_94{stroke-dasharray:31 33;stroke-dashoffset:32;animation:ZoUeHgkw_draw 933ms linear 334ms forwards;}.ZoUeHgkw_95{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 338ms forwards;}.ZoUeHgkw_96{stroke-dasharray:117 119;stroke-dashoffset:118;animation:ZoUeHgkw_draw 933ms linear 341ms forwards;}.ZoUeHgkw_97{stroke-dasharray:37 39;stroke-dashoffset:38;animation:ZoUeHgkw_draw 933ms linear 345ms forwards;}.ZoUeHgkw_98{stroke-dasharray:31 33;stroke-dashoffset:32;animation:ZoUeHgkw_draw 933ms linear 349ms forwards;}.ZoUeHgkw_99{stroke-dasharray:23 25;stroke-dashoffset:24;animation:ZoUeHgkw_draw 933ms linear 352ms forwards;}.ZoUeHgkw_100{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 356ms forwards;}.ZoUeHgkw_101{stroke-dasharray:109 111;stroke-dashoffset:110;animation:ZoUeHgkw_draw 933ms linear 359ms forwards;}.ZoUeHgkw_102{stroke-dasharray:29 31;stroke-dashoffset:30;animation:ZoUeHgkw_draw 933ms linear 363ms forwards;}.ZoUeHgkw_103{stroke-dasharray:23 25;stroke-dashoffset:24;animation:ZoUeHgkw_draw 933ms linear 366ms forwards;}.ZoUeHgkw_104{stroke-dasharray:28 30;stroke-dashoffset:29;animation:ZoUeHgkw_draw 933ms linear 370ms forwards;}.ZoUeHgkw_105{stroke-dasharray:27 29;stroke-dashoffset:28;animation:ZoUeHgkw_draw 933ms linear 374ms forwards;}.ZoUeHgkw_106{stroke-dasharray:25 27;stroke-dashoffset:26;animation:ZoUeHgkw_draw 933ms linear 377ms forwards;}.ZoUeHgkw_107{stroke-dasharray:75 77;stroke-dashoffset:76;animation:ZoUeHgkw_draw 933ms linear 381ms forwards;}.ZoUeHgkw_108{stroke-dasharray:50 52;stroke-dashoffset:51;animation:ZoUeHgkw_draw 933ms linear 384ms forwards;}.ZoUeHgkw_109{stroke-dasharray:9 11;stroke-dashoffset:10;animation:ZoUeHgkw_draw 933ms linear 388ms forwards;}.ZoUeHgkw_110{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 391ms forwards;}.ZoUeHgkw_111{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 395ms forwards;}.ZoUeHgkw_112{stroke-dasharray:95 97;stroke-dashoffset:96;animation:ZoUeHgkw_draw 933ms linear 398ms forwards;}.ZoUeHgkw_113{stroke-dasharray:14 16;stroke-dashoffset:15;animation:ZoUeHgkw_draw 933ms linear 402ms forwards;}.ZoUeHgkw_114{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 406ms forwards;}.ZoUeHgkw_115{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 409ms forwards;}.ZoUeHgkw_116{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 413ms forwards;}.ZoUeHgkw_117{stroke-dasharray:95 97;stroke-dashoffset:96;animation:ZoUeHgkw_draw 933ms linear 416ms forwards;}.ZoUeHgkw_118{stroke-dasharray:14 16;stroke-dashoffset:15;animation:ZoUeHgkw_draw 933ms linear 420ms forwards;}.ZoUeHgkw_119{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 423ms forwards;}.ZoUeHgkw_120{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 427ms forwards;}.ZoUeHgkw_121{stroke-dasharray:861 863;stroke-dashoffset:862;animation:ZoUeHgkw_draw 933ms linear 431ms forwards;}.ZoUeHgkw_122{stroke-dasharray:99 101;stroke-dashoffset:100;animation:ZoUeHgkw_draw 933ms linear 434ms forwards;}.ZoUeHgkw_123{stroke-dasharray:18 20;stroke-dashoffset:19;animation:ZoUeHgkw_draw 933ms linear 438ms forwards;}.ZoUeHgkw_124{stroke-dasharray:13 15;stroke-dashoffset:14;animation:ZoUeHgkw_draw 933ms linear 441ms forwards;}.ZoUeHgkw_125{stroke-dasharray:15 17;stroke-dashoffset:16;animation:ZoUeHgkw_draw 933ms linear 445ms forwards;}.ZoUeHgkw_126{stroke-dasharray:16 18;stroke-dashoffset:17;animation:ZoUeHgkw_draw 933ms linear 448ms forwards;}.ZoUeHgkw_127{stroke-dasharray:9 11;stroke-dashoffset:10;animation:ZoUeHgkw_draw 933ms linear 452ms forwards;}.ZoUeHgkw_128{stroke-dasharray:27 29;stroke-dashoffset:28;animation:ZoUeHgkw_draw 933ms linear 455ms forwards;}.ZoUeHgkw_129{stroke-dasharray:33 35;stroke-dashoffset:34;animation:ZoUeHgkw_draw 933ms linear 459ms forwards;}.ZoUeHgkw_130{stroke-dasharray:39 41;stroke-dashoffset:40;animation:ZoUeHgkw_draw 933ms linear 463ms forwards;}.ZoUeHgkw_131{stroke-dasharray:41 43;stroke-dashoffset:42;animation:ZoUeHgkw_draw 933ms linear 466ms forwards;}@keyframes ZoUeHgkw_draw{100%{stroke-dashoffset:0;}}@keyframes ZoUeHgkw_fade{0%{stroke-opacity:1;}92.85714285714286%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

@@ -5,6 +5,7 @@
 
     @media (min-width: $screen-sm) {
       display: flex;
+      margin-bottom: 55px;
     }
   }
 
@@ -29,15 +30,13 @@
   &__search {
 
     @media (min-width: $screen-sm) {
-      display: flex;
+      width: 466px;
+      margin-left: auto;
       align-items: center;
-      flex-grow: 1;
     }
 
     @media (min-width: $screen-lg) {
       width: 40%;
-      margin-left: auto;
-      flex-grow: 0;
     }
   }
 

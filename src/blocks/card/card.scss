@@ -88,7 +88,6 @@
   &__adress,
   &__delivery {
     font-size: 12px;
-    color: $grey;
 
     @media (min-width: $screen-sm) {
       font-size: 14px;
@@ -96,6 +95,7 @@
   }
 
   &__adress {
+    color: $grey;
 
     @media (min-width: $screen-sm) {
       min-width: 180px;
@@ -288,6 +288,7 @@
 
     @media (min-width: $screen-sm) {
       margin-right: 0;
+      cursor: pointer;
     }
 
     @media (min-width: $screen-xxl) {

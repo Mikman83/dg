@@ -12,12 +12,14 @@
     font-family: 'IBM Plex';
     font-size: 16px;
     font-weight: 300;
-    color: $grey-lighter;
+    color: #0e1632;
+    opacity: 0.3;
   }
 
   &__cell-body {
     font-size: 14px;
     font-weight: 400;
+    color: #0e1632;
     border: 1px solid $grey-light;
   }
 }
