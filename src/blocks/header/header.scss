@@ -17,7 +17,7 @@
     display: flex;
     position: relative;
 
-    @media (min-width: $screen-lg) {
+    @media (min-width: $screen-sm) {
       padding-top: 17px;
       padding-bottom: 24px;
     }
@@ -110,6 +110,7 @@
       top: auto;
       margin-left: auto;
       margin-right: 20px;
+      padding-top: 12px;
     }
 
     @media (min-width: $screen-lg) {
@@ -118,6 +119,7 @@
       justify-content: space-between;
       margin-left: 40px;
       margin-top: 13px;
+      padding-top: 0;
     }
 
     &--active {
@@ -216,13 +218,20 @@
 
     @media (min-width: $screen-sm) {
       margin-left: 0;
+      margin-top: 13px;
     }
 
     @media (min-width: $screen-lg) {
       pointer-events: none;
       margin-right: 0;
-      margin-top: 13px;
       align-self: flex-start;
+    }
+  }
+
+  &__burger {
+
+    @media (min-width: $screen-sm) {
+      margin-top: 8px;
     }
   }
 }

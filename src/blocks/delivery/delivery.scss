@@ -78,7 +78,7 @@
     background-image: url('./../img/promo-bgi.jpg');
     background-repeat: no-repeat;
     background-position: center 0;
-    background-size: auto 100%;
+    background-size: cover;
     margin-bottom: 10px;
 
     @media (min-width: $screen-sm) {
