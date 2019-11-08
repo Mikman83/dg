@@ -104,6 +104,7 @@ a {
 
 .container-thin {
   padding: 10px;
+  padding-bottom: 0;
 
   @media (min-width: $screen-sm) {
     padding: 25px;

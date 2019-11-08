@@ -32,8 +32,12 @@
     margin-bottom: 20px;
 
     @media (min-width: $screen-sm) {
-      margin-top: 72px;
+      margin-top: 41px;
       margin-bottom: 42px;
+    }
+
+    @media (min-width: $screen-lg) {
+      margin-top: 62px;
     }
   }
 

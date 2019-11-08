@@ -211,6 +211,19 @@
     }
   }
 
+  &__loc {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding-bottom: 18px;
+    margin-bottom: 19px;
+    border-bottom: 1px solid $grey-light;
+
+    @media (min-width: $screen-sm) {
+      display: none;
+    }
+  }
+
   &__about {
     margin-bottom: 30px;
 
@@ -322,7 +335,7 @@
   &__adress-list {
 
     @media (min-width: $screen-sm) {
-      width: 43%;
+      width: 41.5%;
       padding: 40px 0;
       padding-right: 35px;
     }
@@ -379,7 +392,7 @@
   &__adress-map {
 
     @media (min-width: $screen-sm) {
-      width: 57%;
+      width: 58.5%;
     }
 
     @media (min-width: $screen-lg) {
@@ -416,11 +429,11 @@
       }
 
       @media (min-width: $screen-lg) {
-        top: -155px;
+        top: -190px;
       }
 
       @media (min-width: $screen-xl) {
-        top: -135px;
+        top: -174px;
       }
     }
 
@@ -489,7 +502,6 @@
 
   &__feedback-action {
     display: flex;
-    padding-top: 15px;
 
     @media (min-width: $screen-sm) {
       justify-content: flex-end;
@@ -498,6 +510,7 @@
 
     @media (min-width: $screen-lg) {
       width: 35%;
+      padding-top: 0;
       justify-content: flex-start;
     }
   }
@@ -509,7 +522,7 @@
   &__slider-counter {
     font-family: 'IBM Plex';
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     position: absolute;
     display: flex;
     width: 135px;
@@ -527,11 +540,11 @@
     }
 
     @media (min-width: $screen-lg) {
-      top: -155px;
+      top: -190px;
     }
 
     @media (min-width: $screen-xl) {
-      top: -135px;
+      top: -174px;
     }
   }
 
@@ -540,7 +553,7 @@
   }
 
   &__slider-counter .counter span {
-    font-weight: 500;
+    font-weight: 300;
   }
 
   &__img {

@@ -10,9 +10,11 @@
   }
 
   &__title {
+    margin-bottom: 20px;
 
     @media (min-width: $screen-sm) {
       margin-right: 75px;
+      margin-bottom: 0;
     }
   }
 

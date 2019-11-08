@@ -100,35 +100,17 @@ $(document).ready(function() {
   });
 
   //СЛАЙДЕР ПОСТАВЩИКА
-  $(function () {
-    let owl = $('.provider__feedback-slider');
-    owl.owlCarousel({
-      loop: true,
-      nav:true,
-      mergeFit:true,
-      responsive : {
-        0 : {
-          items: 1
-        },
-        768 : {
-          items: 2
-        },
-        1280 : {
-          items: 3
-        }
-      },
-      onInitialized  : counter,
-      onTranslated : counter,
-    });
-
-    function counter(event) {
-      let items = event.item.count;
-      let item = event.page.index + 1;
-      if (item == 0) {
-        item = 1;
-      }
-      $('.counter').html("<span>" + item + "</span> / " + items)
+  $('.provider__feedback-slider').on('initialized.owl.carousel changed.owl.carousel', function(e) {
+    if (!e.namespace)  {
+      return;
     }
+    var carousel = e.relatedTarget;
+    $('.counter').html(carousel.relative(carousel.current()) + 1 + '<span> /' + carousel.items().length + '</span>');
+  }).owlCarousel({
+    items: 3,
+    loop:true,
+    margin:0,
+    nav:true
   });
 
   //КАРТА
@@ -282,15 +264,32 @@ $(document).ready(function() {
   $('.request-modal__input').blur(function () {
     if($(this).hasClass("error")) {
       $(this).parent().css('border', '1px solid #f14040');
+      $(this).prev().css('color', '#f14040');
+      $(this).prev().text('Введите корректный номер');
     } else {
       $(this).parent().css('border', '1px solid #e5e5e5');
     }
   });
 
-  var form = $(".request-modal__form");
-  $.validator.addMethod("letters", function(value, element) {
-    return this.optional(element) || value == value.match(/^[a-zA-Z а-яА-ЯёЁ'"`]*$/);
+  $('.request-modal__input-tel').blur(function () {
+    if($(this).hasClass("error")) {
+      $(this).prev().text('Введите корректный номер');
+    } else {
+      $(this).prev().css('color', '#7c7c7c');
+      $(this).prev().html("Ваш номер телефона <span>*</span>");
+    }
   });
+
+  $('.request-modal__input-company').blur(function () {
+    if($(this).hasClass("error")) {
+      $(this).prev().text('Введите корректное название');
+    } else {
+      $(this).prev().css('color', '#7c7c7c');
+      $(this).prev().html("Название компании <span>*</span>");
+    }
+  });
+
+  var form = $(".request-modal__form");
   $.validator.addMethod("checkTel", function(value, element) {
     return /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/g.test(value);
   });
@@ -298,8 +297,7 @@ $(document).ready(function() {
     rules: {
       company: {
         required: true,
-        minlength: 3,
-        letters: true
+        minlength: 3
       },
       tel: {
         required: true,
@@ -307,8 +305,8 @@ $(document).ready(function() {
       }
     },
     messages: {
-      company: "Неправильно введена инфо или не заполнено поле",
-      tel: "Неправильно введена инфо или не заполнено поле"
+      company: " ",
+      tel: " "
     },
     submitHandler: function() {}
   });
@@ -332,7 +330,7 @@ $(document).ready(function() {
 
     close.click(function () {
       modal
-        .animate({opacity: 0}, 200,
+        .animate({opacity: 0}, 100,
           function () {
             $(this).css('display', 'none');
             modal.fadeOut(400);
