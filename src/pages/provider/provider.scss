@@ -22,7 +22,6 @@
     @media (min-width: $screen-sm) {
       display: flex;
       flex-wrap: wrap;
-      //padding-top: 20px;
     }
   }
 
@@ -281,6 +280,7 @@
     @media (min-width: $screen-lg) {
       width: 23%;
       margin: 0;
+      margin-right: 5%;
     }
   }
 
@@ -342,6 +342,14 @@
 
     @media (min-width: $screen-lg) {
       width: 25%;
+      padding-bottom: 0;
+    }
+
+    .delivery__show-more {
+
+      @media (min-width: $screen-lg) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -397,6 +405,7 @@
 
     @media (min-width: $screen-lg) {
       width: 75%;
+      min-height: 340px;
     }
   }
 
@@ -425,7 +434,7 @@
         width: 180px;
         height: 110px;
         right: -15px;
-        top: -122px;
+        top: -165px;
       }
 
       @media (min-width: $screen-lg) {
@@ -536,7 +545,7 @@
       width: 180px;
       height: 110px;
       right: -15px;
-      top: -122px;
+      top: -165px;
     }
 
     @media (min-width: $screen-lg) {

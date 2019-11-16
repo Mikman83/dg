@@ -26,6 +26,10 @@
       font-size: 16px;
       line-height: 32px;
     }
+
+    @media (min-width: $screen-lg) {
+      height: 64px;
+    }
   }
 
   &__inner {

@@ -58,7 +58,7 @@
           input(type="text" id="name" name="name" autocomplete="off").lead-modal__input
         fieldset.lead-modal__fieldset
           legend.lead-modal__legend!= 'Ваш номер телефона <span>*</span>'
-          input(type="tel" id="tel" name="tel" autocomplete="off" required).lead-modal__input
+          input(type="tel" id="tel" name="tel" autocomplete="off" required).lead-modal__input-tel
         button.lead-modal__btn.lead-modal__btn--disabled.btn(type="submit" data-success='.success-modal')
           span Отправить
 
@@ -67,7 +67,8 @@
       .direct-modal__close
         span Закрыть
       .direct-modal__text
-        p!= 'Мы перенаправляем Вас на сайт компании <span>«name-company».</span> <br>Пожалуйста, сообщите что данное предложение Вы нашли на сайте ДизГаз.'
+        p!= 'Мы перенаправляем Вас на сайт компании <span>«name-company».</span>'
+        p Пожалуйста, сообщите что данное предложение Вы нашли на сайте ДизГаз.
         .direct-modal__timer
           span 0 : 0
           span.direct-modal__seconds 5

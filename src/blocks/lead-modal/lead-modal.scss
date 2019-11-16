@@ -108,7 +108,8 @@
     color: $blue-light;
   }
 
-  &__input {
+  &__input,
+  &__input-tel {
     font-family: $font-main;
     font-size: inherit;
     line-height: inherit;

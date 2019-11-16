@@ -6,7 +6,28 @@
 
     @media (min-width: $screen-sm) {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
+    }
+
+    @media (min-width: $screen-lg) {
+      align-items: flex-end;
+    }
+  }
+
+  &__rights {
+    font-size: 14px;
+    color: $grey;
+    margin-bottom: 30px;
+    text-align: center;
+
+    @media (min-width: $screen-sm) {
+      width: 100%;
+    }
+
+    @media (min-width: $screen-lg) {
+      width: 50%;
+      margin-bottom: 0;
     }
   }
 
@@ -18,6 +39,10 @@
 
     @media (min-width: $screen-sm) {
       margin-bottom: 0;
+    }
+
+    @media (min-width: $screen-lg) {
+      order: -1;
     }
   }
 

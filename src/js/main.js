@@ -42,6 +42,7 @@ $(document).ready(function() {
 
   //КНОПКИ ГАЗ\ДИЗЕЛЬ
   $('#gas').change(function(){
+
     if($(this).is(':checked')) {
       $('.statistics__gaz-block')
         .toggleClass('statistics__gaz-block--active');
@@ -52,6 +53,7 @@ $(document).ready(function() {
   });
 
   $('#diz').change(function(){
+
     if($(this).is(':checked')) {
       $('.statistics__diz-block')
         .toggleClass('statistics__diz-block--active');
@@ -77,6 +79,9 @@ $(document).ready(function() {
       $(this)
         .toggleClass('delivery__show-more-btn--active');
   });
+
+  //СКРОЛЛ
+
 
   //СЛАЙДЕР СТАТЬИ
   $(function () {
@@ -107,10 +112,20 @@ $(document).ready(function() {
     var carousel = e.relatedTarget;
     $('.counter').html(carousel.relative(carousel.current()) + 1 + '<span> /' + carousel.items().length + '</span>');
   }).owlCarousel({
-    items: 3,
     loop:true,
     margin:0,
-    nav:true
+    nav:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      768:{
+        items:2
+      },
+      1280:{
+        items:3
+      }
+    }
   });
 
   //КАРТА
@@ -449,11 +464,15 @@ $(document).ready(function() {
     $(this).parent().css('border', '1px solid rgba(24, 195, 244, 0.29)');
   });
 
-  $('.lead-modal__input').blur(function () {
+  $('.lead-modal__input-tel').blur(function () {
     if($(this).hasClass("error")) {
       $(this).parent().css('border', '1px solid #f14040');
+      $(this).prev().css('color', '#f14040');
+      $(this).prev().text('Введите корректный номер');
     } else {
       $(this).parent().css('border', '1px solid #e5e5e5');
+      $(this).prev().css('color', '#7c7c7c');
+      $(this).prev().html("Ваш номер телефона <span>*</span>");
     }
   });
 
@@ -477,8 +496,8 @@ $(document).ready(function() {
       }
     },
     messages: {
-      company: "Неправильно введена инфо или не заполнено поле",
-      tel: "Неправильно введена инфо или не заполнено поле"
+      company: " ",
+      tel: " "
     },
     submitHandler: function() {}
   });
@@ -488,9 +507,6 @@ $(document).ready(function() {
 let starParts = [...document.querySelectorAll("input[name='rating']")];
 let rating = 0;
 let realValue = 0;
-// rate.innerHTML = "Показывается: " + rating / 2 + "<br>Реально: " + realValue;
-
-// let res = document.getElementById("#rate");
 starParts.forEach(function(item, idx) {
   item.addEventListener("change", function(e) {
     let selectedIndex = idx;
